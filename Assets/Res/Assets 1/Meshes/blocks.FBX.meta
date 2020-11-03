@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 3266ecd672dd9ac40bd363c01cbf3bb8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Floor_grass
+    100004: Floor_Road
+    100006: Floor_water
+    100008: Road_3Way
+    100010: Road_4Way
+    100012: Road_deadend
+    100014: Road_STR_eight
+    100016: Road_STR_five
+    100018: Road_STR_four
+    100020: Road_STR_nine
+    100022: Road_STR_one
+    100024: Road_STR_seven
+    100026: Road_STR_six
+    100028: Road_STR_ten
+    100030: Road_STR_three
+    100032: Road_STR_two
+    100034: Road_TAR_Corner_Con
+    100036: Road_TAR_Corner_Cox
+    100038: Road_TAR_IN
+    100040: Road_TAR_Side
+    100042: Road_Turn
+    100044: Road_water_Corner_Con
+    100046: Road_water_corner_cox
+    100048: Road_water_Side
+    400000: //RootNode
+    400002: Floor_grass
+    400004: Floor_Road
+    400006: Floor_water
+    400008: Road_3Way
+    400010: Road_4Way
+    400012: Road_deadend
+    400014: Road_STR_eight
+    400016: Road_STR_five
+    400018: Road_STR_four
+    400020: Road_STR_nine
+    400022: Road_STR_one
+    400024: Road_STR_seven
+    400026: Road_STR_six
+    400028: Road_STR_ten
+    400030: Road_STR_three
+    400032: Road_STR_two
+    400034: Road_TAR_Corner_Con
+    400036: Road_TAR_Corner_Cox
+    400038: Road_TAR_IN
+    400040: Road_TAR_Side
+    400042: Road_Turn
+    400044: Road_water_Corner_Con
+    400046: Road_water_corner_cox
+    400048: Road_water_Side
+    2100000: grass01
+    2100002: grass02
+    2100004: water
+    2100006: land01
+    2300000: Floor_grass
+    2300002: Floor_Road
+    2300004: Floor_water
+    2300006: Road_3Way
+    2300008: Road_4Way
+    2300010: Road_deadend
+    2300012: Road_STR_eight
+    2300014: Road_STR_five
+    2300016: Road_STR_four
+    2300018: Road_STR_nine
+    2300020: Road_STR_one
+    2300022: Road_STR_seven
+    2300024: Road_STR_six
+    2300026: Road_STR_ten
+    2300028: Road_STR_three
+    2300030: Road_STR_two
+    2300032: Road_TAR_Corner_Con
+    2300034: Road_TAR_Corner_Cox
+    2300036: Road_TAR_IN
+    2300038: Road_TAR_Side
+    2300040: Road_Turn
+    2300042: Road_water_Corner_Con
+    2300044: Road_water_corner_cox
+    2300046: Road_water_Side
+    3300000: Floor_grass
+    3300002: Floor_Road
+    3300004: Floor_water
+    3300006: Road_3Way
+    3300008: Road_4Way
+    3300010: Road_deadend
+    3300012: Road_STR_eight
+    3300014: Road_STR_five
+    3300016: Road_STR_four
+    3300018: Road_STR_nine
+    3300020: Road_STR_one
+    3300022: Road_STR_seven
+    3300024: Road_STR_six
+    3300026: Road_STR_ten
+    3300028: Road_STR_three
+    3300030: Road_STR_two
+    3300032: Road_TAR_Corner_Con
+    3300034: Road_TAR_Corner_Cox
+    3300036: Road_TAR_IN
+    3300038: Road_TAR_Side
+    3300040: Road_Turn
+    3300042: Road_water_Corner_Con
+    3300044: Road_water_corner_cox
+    3300046: Road_water_Side
+    4300000: Road_STR_ten
+    4300002: Road_STR_nine
+    4300004: Road_STR_eight
+    4300006: Road_STR_seven
+    4300008: Road_STR_six
+    4300010: Road_STR_five
+    4300012: Road_STR_four
+    4300014: Road_STR_three
+    4300016: Road_STR_two
+    4300018: Floor_grass
+    4300020: Road_Turn
+    4300022: Road_TAR_Corner_Con
+    4300024: Road_3Way
+    4300026: Road_4Way
+    4300028: Road_TAR_Side
+    4300030: Road_TAR_Corner_Cox
+    4300032: Floor_Road
+    4300034: Road_TAR_IN
+    4300036: Road_water_Corner_Con
+    4300038: Road_water_corner_cox
+    4300040: Road_water_Side
+    4300042: Floor_water
+    4300044: Road_deadend
+    4300046: Road_STR_one
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
