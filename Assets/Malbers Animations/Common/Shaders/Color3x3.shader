@@ -26,7 +26,7 @@ Shader "Malbers/Color3x3"
 		[Space(10)]_MRE4("MRE 4", Color) = (0,1,0,0)
 		_MRE5("MRE 5", Color) = (0,1,0,0)
 		_MRE6("MRE 6", Color) = (0,1,0,0)
-		[Space()]_MRE7("MRE 7", Color) = (0,1,0,0)
+		[Space(10)]_MRE7("MRE 7", Color) = (0,1,0,0)
 		_MRE8("MRE 8", Color) = (0,1,0,0)
 		_MRE9("MRE 9", Color) = (0,1,0,0)
 		[Header(Emmision)]_EmissionPower("Emission Power", Float) = 1
