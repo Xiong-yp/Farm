@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05e3ee77-e6e7-4339-ab1e-d3e9a750b0ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Animals Packs/01 Forest Pack/Animal Controller(AC)/01 Forest Pack AC 3.1.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Shaders/HRPL_MalbersShaders.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Shaders/URPL_MalbersShaders.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/License!.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/License!.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansBold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansLight.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansRegular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansRegular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansSemibold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Fonts/OpenSans/OpenSansSemibold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Shaders/Color3x3.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Malbers Animations/Common/Shaders/Color3x3.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BuildTest/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BuildTest/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-783">
+            <state relative-caret-position="1421">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <marker date="1604389163104" expanded="true" signature="6:100" ph="..." />
@@ -47,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scenes/BuildTest/Build.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
+            <state relative-caret-position="58">
               <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding>
                 <marker date="1604406210129" expanded="true" signature="6:92" ph="..." />
@@ -61,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scenes/BuildTest/HoseTrigger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="377">
               <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <marker date="1604407884162" expanded="true" signature="6:92" ph="..." />
@@ -81,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../EventModeDemo/Assets/EventModel/EventDemo/AutoDoor/PlayerCtr.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
+            <state relative-caret-position="870">
               <caret line="33" column="43" selection-start-line="32" selection-start-column="12" selection-end-line="33" selection-end-column="43" />
               <folding>
                 <element signature="e#0#92#0" expanded="true" />
@@ -103,6 +112,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/BuildTest/Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Malbers Animations/Common/Shaders/Color3x3.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/BuildTest/HoseTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../EventModeDemo/Assets/EventModel/EventDemo/AutoDoor/PlayerCtr.cs" root0="SKIP_HIGHLIGHTING" />
@@ -116,12 +126,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InputSys.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/BuildTest/Build.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/BuildTest/HoseTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UI_Base.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Malbers Animations/Common/Shaders/Color3x3.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIBase.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="155" />
-    <option name="y" value="139" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="651" />
+    <option name="y" value="130" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -130,10 +144,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
@@ -192,11 +206,18 @@
       <workItem from="1604396982630" duration="2550000" />
       <workItem from="1604400357193" duration="5000" />
       <workItem from="1604402754841" duration="5244000" />
+      <workItem from="1604986751035" duration="70000" />
+      <workItem from="1604986848137" duration="9000" />
+      <workItem from="1604986874130" duration="17000" />
+      <workItem from="1604986936176" duration="17000" />
+      <workItem from="1604987207634" duration="80000" />
+      <workItem from="1604987302522" duration="35000" />
+      <workItem from="1604987356992" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7826000" />
+    <option name="totallyTimeSpent" value="8067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,9 +229,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="651" y="130" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12633263" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29102844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -231,7 +252,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
@@ -255,20 +276,86 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/EvebtSys.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Character.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/EventSys.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputSys.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InputSys.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/GameMgr.cs" />
+    <entry file="file://$PROJECT_DIR$/Temp/ParsedCombinations-Standard.shader" />
+    <entry file="file://$PROJECT_DIR$/Temp/Compiled-Standard.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI_Base.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Malbers Animations/Common/Shaders/Color3x3.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <marker date="1604987253583" expanded="true" signature="0:93" ph="/* Made with Amplify Shader Editor ... */" />
+            <marker date="1604987253583" expanded="true" signature="120:15290" ph="{...}" />
+            <marker date="1604987253583" expanded="true" signature="135:1922" ph="{...}" />
+            <marker date="1604987253583" expanded="true" signature="1936:15231" ph="{...}" />
+            <marker date="1604987253583" expanded="true" signature="2106:15223" ph="{...}" />
+            <marker date="1604987253583" expanded="true" signature="15291:32087" ph="/* ASEBEGIN ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/BuildTest/Build.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1604406210129" expanded="true" signature="6:92" ph="..." />
+            <marker date="1604406210129" expanded="true" signature="128:859" ph="{...}" />
+            <marker date="1604406210129" expanded="true" signature="226:352" ph="{...}" />
+            <marker date="1604406210129" expanded="true" signature="384:857" ph="{...}" />
+            <marker date="1604406210129" expanded="true" signature="427:851" ph="{...}" />
+            <marker date="1604406210129" expanded="true" signature="663:841" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/BuildTest/HoseTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <marker date="1604407884162" expanded="true" signature="6:92" ph="..." />
+            <marker date="1604407884162" expanded="true" signature="134:991" ph="{...}" />
+            <marker date="1604407884162" expanded="true" signature="226:485" ph="{...}" />
+            <marker date="1604407884162" expanded="true" signature="534:793" ph="{...}" />
+            <marker date="1604407884162" expanded="true" signature="622:787" ph="{...}" />
+            <marker date="1604407884162" expanded="true" signature="841:989" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../EventModeDemo/Assets/EventModel/EventDemo/AutoDoor/PlayerCtr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="33" column="43" selection-start-line="32" selection-start-column="12" selection-end-line="33" selection-end-column="43" />
           <folding>
-            <marker date="1604400323208" expanded="false" signature="6:110" ph="..." />
-            <marker date="1604400323208" expanded="true" signature="149:158" ph="{...}" />
+            <element signature="e#0#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
+        <state relative-caret-position="1421">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <marker date="1604389163104" expanded="true" signature="6:100" ph="..." />
@@ -285,70 +372,6 @@
             <marker date="1604389163104" expanded="true" signature="1885:2138" ph="{...}" />
             <marker date="1604389163104" expanded="true" signature="1938:2048" ph="{...}" />
             <marker date="1604389163104" expanded="true" signature="2162:2196" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/GameMgr.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../EventModeDemo/Assets/EventModel/EventDemo/AutoDoor/PlayerCtr.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="33" column="43" selection-start-line="32" selection-start-column="12" selection-end-line="33" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/ParsedCombinations-Standard.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="227" column="127" selection-start-line="227" selection-start-column="121" selection-end-line="227" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/BuildTest/Build.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <marker date="1604406210129" expanded="true" signature="6:92" ph="..." />
-            <marker date="1604406210129" expanded="true" signature="128:859" ph="{...}" />
-            <marker date="1604406210129" expanded="true" signature="226:352" ph="{...}" />
-            <marker date="1604406210129" expanded="true" signature="384:857" ph="{...}" />
-            <marker date="1604406210129" expanded="true" signature="427:851" ph="{...}" />
-            <marker date="1604406210129" expanded="true" signature="663:841" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/Compiled-Standard.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/BuildTest/HoseTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding>
-            <marker date="1604407884162" expanded="true" signature="6:92" ph="..." />
-            <marker date="1604407884162" expanded="true" signature="134:991" ph="{...}" />
-            <marker date="1604407884162" expanded="true" signature="226:485" ph="{...}" />
-            <marker date="1604407884162" expanded="true" signature="534:793" ph="{...}" />
-            <marker date="1604407884162" expanded="true" signature="622:787" ph="{...}" />
-            <marker date="1604407884162" expanded="true" signature="841:989" ph="{...}" />
           </folding>
         </state>
       </provider>
