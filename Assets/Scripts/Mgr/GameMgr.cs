@@ -17,10 +17,17 @@ public class GameMgr : MonoBehaviour
         get;
         private set;
     }
+    public ConfigMgr ConfigMgr
+    {
+        get;
+        private set;
+    }
 
     private void Awake()
     {
         Init();
+        ConfigMgr = gameObject.AddComponent<ConfigMgr>();
+        ConfigMgr.Inst();
     }
 
     void Init()
