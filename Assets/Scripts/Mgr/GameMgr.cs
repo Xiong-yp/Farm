@@ -12,7 +12,7 @@ public class GameMgr : MonoBehaviour
         get => _instance;
     }
 
-    public UIMgr UiMgr
+    public UIMgr UIMgr
     {
         get;
         private set;
@@ -28,14 +28,24 @@ public class GameMgr : MonoBehaviour
         private set;
     }
 
+    public BuildMgr BuildMgr
+    {
+        get;
+        private set;
+    }
+    
     private void Awake()
     {
         _instance = this;
         Init();
         HourseMgr = gameObject.AddComponent<HourseMgr>();
-        HourseMgr.Inst();
+        //HourseMgr.Inst();
         ConfigMgr = gameObject.AddComponent<ConfigMgr>();
-        ConfigMgr.Inst();
+        //ConfigMgr.Inst();
+        BuildMgr = gameObject.AddComponent<BuildMgr>();
+        BuildMgr.Init();
+        UIMgr = gameObject.AddComponent<UIMgr>();
+        UIMgr.Init();
     }
 
     void Init()
