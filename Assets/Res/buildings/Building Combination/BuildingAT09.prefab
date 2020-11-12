@@ -7042,6 +7042,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2697305881126576562}
+  - component: {fileID: 5539085073820629730}
   m_Layer: 0
   m_Name: Pos
   m_TagString: Untagged
@@ -7063,3 +7064,16 @@ Transform:
   m_Father: {fileID: 414600}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5539085073820629730
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708527883961651510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}

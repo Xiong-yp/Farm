@@ -21,6 +21,11 @@ public class GameMgr : MonoBehaviour
     {
         get;
         private set;
+    } 
+    public TimeMgr TimeMgr
+    {
+        get;
+        private set;
     }
     public HourseMgr HourseMgr
     {
@@ -38,14 +43,16 @@ public class GameMgr : MonoBehaviour
     {
         _instance = this;
         Init();
+        TimeMgr = gameObject.AddComponent<TimeMgr>();
+        TimeMgr.Inst();
         HourseMgr = gameObject.AddComponent<HourseMgr>();
-        //HourseMgr.Inst();
+        HourseMgr.Inst();
         ConfigMgr = gameObject.AddComponent<ConfigMgr>();
-        //ConfigMgr.Inst();
+        ConfigMgr.Inst();
         BuildMgr = gameObject.AddComponent<BuildMgr>();
-        BuildMgr.Init();
+        //BuildMgr.Init();
         UIMgr = gameObject.AddComponent<UIMgr>();
-        UIMgr.Init();
+        //UIMgr.Init();
     }
 
     void Init()

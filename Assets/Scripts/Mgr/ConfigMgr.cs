@@ -84,12 +84,14 @@ public class ConfigMgr : MonoBehaviour
             }
             _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
             _tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack);
+            _tempnpc.SetActive(false);
 
-            for(int x=0;x< GameMgr.Instance.HourseMgr.Temphourse.Count;x++)
+            for (int x = 0; x < GameMgr.Instance.HourseMgr.Temphourse.Count; x++)
             {
-                if(_housename == GameMgr.Instance.HourseMgr.Temphourse[x].name)
+                if (_housename == GameMgr.Instance.HourseMgr.Temphourse[x].name)
                 {
-                    GameMgr.Instance.HourseMgr.Temphourse[x].GetComponent<Hourse>().MyNpc.Add(_tempnpc.GetComponent<NPC>());
+                    GameMgr.Instance.HourseMgr.Temphourse[x].GetComponent<Hourse>().MyNpc.Add(_tempnpc);
+                    GameMgr.Instance.HourseMgr.Temphourse[x].GetComponent<Hourse>().Inst();
                     break;
                 }
             }

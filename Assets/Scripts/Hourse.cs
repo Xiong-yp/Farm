@@ -4,15 +4,41 @@ using UnityEngine;
 
 public class Hourse : MonoBehaviour
 {
-   public List<NPC> _myNpc = new List<NPC>(); 
-    public List<NPC> MyNpc 
-    { 
+    List<GameObject> _myNpc = new List<GameObject>();
+    Transform _pos;
+    public List<GameObject> MyNpc
+    {
         get => _myNpc;
-        set => _myNpc = value; 
+        set => _myNpc = value;
     }
 
     public void Inst()
-    { 
-
+    {
+        Eventsys.GrowthTime += InstNpc;
+    }
+    NPC _temp;
+    public void InstNpc(float _nowTime)
+    {
+        _pos = transform.Find("Pos");
+        for (int i = 0; i < _myNpc.Count; i++)
+        {
+            _temp = _myNpc[i].GetComponent<NPC>();
+            if (_nowTime > _temp.Startwork && _nowTime < _temp.Endwork)
+            {
+                if (!_myNpc[i].activeInHierarchy)
+                {
+                    _myNpc[i].transform.position = _pos.position;
+                    _temp.Temphpurse = this;
+                    _myNpc[i].SetActive(true);
+                }
+            }
+            else if (_nowTime < _temp.Startwork || _nowTime > _temp.Endwork)
+            {
+                if (MyNpc[i].activeInHierarchy)
+                {
+                    _myNpc[i].SetActive(false);
+                }
+            }
+        }
     }
 }
