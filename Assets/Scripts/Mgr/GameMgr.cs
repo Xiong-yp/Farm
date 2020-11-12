@@ -22,10 +22,18 @@ public class GameMgr : MonoBehaviour
         get;
         private set;
     }
+    public HourseMgr HourseMgr
+    {
+        get;
+        private set;
+    }
 
     private void Awake()
     {
+        _instance = this;
         Init();
+        HourseMgr = gameObject.AddComponent<HourseMgr>();
+        HourseMgr.Inst();
         ConfigMgr = gameObject.AddComponent<ConfigMgr>();
         ConfigMgr.Inst();
     }
