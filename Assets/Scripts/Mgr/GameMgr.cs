@@ -43,16 +43,16 @@ public class GameMgr : MonoBehaviour
     {
         _instance = this;
         Init();
-        /*TimeMgr = gameObject.AddComponent<TimeMgr>();
+        TimeMgr = gameObject.AddComponent<TimeMgr>();
         TimeMgr.Inst();
         HourseMgr = gameObject.AddComponent<HourseMgr>();
         HourseMgr.Inst();
         ConfigMgr = gameObject.AddComponent<ConfigMgr>();
-        ConfigMgr.Inst();*/
-        BuildMgr = gameObject.AddComponent<BuildMgr>();
-        BuildMgr.Init();
-        UIMgr = gameObject.AddComponent<UIMgr>();
-        UIMgr.Init();
+        ConfigMgr.Inst();
+        //BuildMgr = gameObject.AddComponent<BuildMgr>();
+        //BuildMgr.Init();
+        //UIMgr = gameObject.AddComponent<UIMgr>();
+        //UIMgr.Init();
     }
 
     void Init()

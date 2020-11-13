@@ -14,10 +14,12 @@ public class NPC : MonoBehaviour
     int _startwork;
     int _endwork;
     string _speack;
+    
 
     public int Startwork { get => _startwork; set => _startwork = value; }
     public int Endwork { get => _endwork; set => _endwork = value; }
     public Hourse Temphpurse { get => _temphpurse; set => _temphpurse = value; }
+    
 
     public void Inst(int id, string name, string modle, string professional, string housename,
         string tradable, int startwork, int endwork, string speack)
@@ -54,10 +56,13 @@ public class NPC : MonoBehaviour
     }
     private void OnEnable()
     {
-        max_x = transform.localPosition.x + 50;
-        min_x = transform.localPosition.x - 50;
-        max_z = transform.localPosition.z + 50;
-        min_z = transform.localPosition.z - 50;
+        max_x = _temphpurse.transform.position.x + 20;
+        min_x = _temphpurse.transform.position.x - 20;
+        max_z = _temphpurse.transform.position.z + 20;
+        min_z = _temphpurse.transform.position.z - 20;
+        _target = new Vector3(Random.Range(min_x, max_x), 0, Random.Range(min_z, max_z));
+        if (_agen.isActiveAndEnabled)
+            _agen.destination = _target;
     }
     void Pos(float _nowtime)
     {
@@ -65,30 +70,30 @@ public class NPC : MonoBehaviour
         {
             for (int i = 0; i < Temphpurse.MyNpc.Count; i++)
             {
-                if (_nowtime > Startwork && _nowtime < Endwork - 3f)
+                if (_nowtime > Startwork && _nowtime < Endwork)
                 {
                     if (!Temphpurse.MyNpc[i].activeInHierarchy)
                     {
                         _target = new Vector3(Random.Range(min_x, max_x), 0, Random.Range(min_z, max_z));
                     }
                 }
-                else if (_nowtime > Endwork - 3f)
+                else if (_nowtime >= Endwork)
                 {
                     _target = Temphpurse.transform.Find("Pos").position;
                 }
             }
         }
-
     }
     void isagent()
     {
         _agen.enabled = true;
+        if(_agen.isActiveAndEnabled)
         _agen.destination = _target;
     }
     void Arrive()
     {
         tis = dis;
-        dis = Vector3.Distance(transform.localPosition, _target);
+        dis = Vector3.Distance(_temphpurse.transform.position, _target);
         if (tis != dis)
         {
             if (!_agen.isActiveAndEnabled && _obstacle.isActiveAndEnabled)
@@ -120,12 +125,21 @@ public class NPC : MonoBehaviour
 
         }
     }
-    private void Start()
-    {
 
+    void SetHomePos()
+    {
+          if (GameMgr.Instance.TimeMgr.Time >=  Endwork  )
+        {
+            if (gameObject.activeInHierarchy)
+            {
+                gameObject.SetActive(false);
+                CancelInvoke("SetHomePos");
+            }
+        }
     }
     void Update()
     {
-        Arrive();
+        Arrive(); 
+        
     }
 }

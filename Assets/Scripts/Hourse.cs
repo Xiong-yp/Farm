@@ -15,15 +15,20 @@ public class Hourse : MonoBehaviour
     public void Inst()
     {
         Eventsys.GrowthTime += InstNpc;
+        if (!_pos)
+        {
+            _pos = transform.Find("Pos");
+            _pos.gameObject.AddComponent<GoHome>();
+
+        }
     }
     NPC _temp;
     public void InstNpc(float _nowTime)
     {
-        _pos = transform.Find("Pos");
         for (int i = 0; i < _myNpc.Count; i++)
         {
             _temp = _myNpc[i].GetComponent<NPC>();
-            if (_nowTime > _temp.Startwork && _nowTime < _temp.Endwork)
+            if (_nowTime >= _temp.Startwork && _nowTime < _temp.Endwork)
             {
                 if (!_myNpc[i].activeInHierarchy)
                 {
@@ -32,13 +37,7 @@ public class Hourse : MonoBehaviour
                     _myNpc[i].SetActive(true);
                 }
             }
-            else if (_nowTime < _temp.Startwork || _nowTime > _temp.Endwork)
-            {
-                if (MyNpc[i].activeInHierarchy)
-                {
-                    _myNpc[i].SetActive(false);
-                }
-            }
+
         }
     }
 }
