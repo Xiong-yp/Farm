@@ -49,6 +49,7 @@ public class GameMgr : MonoBehaviour
     {
         _instance = this;
         Init();
+<<<<<<< HEAD
         
     }
 
@@ -63,15 +64,29 @@ public class GameMgr : MonoBehaviour
         mainCamera = Camera.main;
         CameraMgr = gameObject.AddComponent<CameraMgr>();
         
+=======
+>>>>>>> 796e79390ecfda500864993fe55a5a4427d444d4
         TimeMgr = gameObject.AddComponent<TimeMgr>();
         TimeMgr.Inst();
         HourseMgr = gameObject.AddComponent<HourseMgr>();
         HourseMgr.Inst();
         ConfigMgr = gameObject.AddComponent<ConfigMgr>();
         ConfigMgr.Inst();
+<<<<<<< HEAD
         BuildMgr = gameObject.AddComponent<BuildMgr>();
         //BuildMgr.Init();
         UIMgr = gameObject.AddComponent<UIMgr>();
         //UIMgr.Init();
+=======
+        //BuildMgr = gameObject.AddComponent<BuildMgr>();
+        //BuildMgr.Init();
+        //UIMgr = gameObject.AddComponent<UIMgr>();
+        //UIMgr.Init();
+    }
+
+    void Init()
+    {
+        
+>>>>>>> 796e79390ecfda500864993fe55a5a4427d444d4
     }
 }
