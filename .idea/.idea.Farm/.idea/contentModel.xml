@@ -80,6 +80,7 @@
           <e p="Controani.cs" t="Include" />
           <e p="CreatTree.cs" t="Include" />
           <e p="Eventsys.cs" t="Include" />
+          <e p="GoHome.cs" t="Include" />
           <e p="Hourse.cs" t="Include" />
           <e p="HouseTrigger.cs" t="Include" />
           <e p="Mgr" t="Include">
@@ -87,6 +88,7 @@
             <e p="CameraMgr.cs" t="Include" />
             <e p="ConfigMgr.cs" t="Include" />
             <e p="GameMgr.cs" t="Include" />
+            <e p="GetNpcCsvData.cs" t="Include" />
             <e p="HourseMgr.cs" t="Include" />
             <e p="TimeMgr.cs" t="Include" />
             <e p="UIMgr.cs" t="Include" />
