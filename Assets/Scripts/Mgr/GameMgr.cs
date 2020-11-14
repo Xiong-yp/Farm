@@ -12,6 +12,12 @@ public class GameMgr : MonoBehaviour
         get => _instance;
     }
 
+    public Camera mainCamera
+    {
+        get;
+        private set;
+    }
+    
     public UIMgr UIMgr
     {
         get;
@@ -43,20 +49,29 @@ public class GameMgr : MonoBehaviour
     {
         _instance = this;
         Init();
-        /*TimeMgr = gameObject.AddComponent<TimeMgr>();
+        
+    }
+
+    public CameraMgr CameraMgr
+    {
+        get;
+        private set;
+    }
+    
+    void Init()
+    {
+        mainCamera = Camera.main;
+        CameraMgr = gameObject.AddComponent<CameraMgr>();
+        
+        TimeMgr = gameObject.AddComponent<TimeMgr>();
         TimeMgr.Inst();
         HourseMgr = gameObject.AddComponent<HourseMgr>();
         HourseMgr.Inst();
         ConfigMgr = gameObject.AddComponent<ConfigMgr>();
-        ConfigMgr.Inst();*/
+        ConfigMgr.Inst();
         BuildMgr = gameObject.AddComponent<BuildMgr>();
-        BuildMgr.Init();
+        //BuildMgr.Init();
         UIMgr = gameObject.AddComponent<UIMgr>();
-        UIMgr.Init();
-    }
-
-    void Init()
-    {
-        
+        //UIMgr.Init();
     }
 }

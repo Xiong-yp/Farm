@@ -84,6 +84,7 @@
           <e p="HouseTrigger.cs" t="Include" />
           <e p="Mgr" t="Include">
             <e p="BuildMgr.cs" t="Include" />
+            <e p="CameraMgr.cs" t="Include" />
             <e p="ConfigMgr.cs" t="Include" />
             <e p="GameMgr.cs" t="Include" />
             <e p="HourseMgr.cs" t="Include" />
@@ -95,6 +96,9 @@
           <e p="UI" t="Include">
             <e p="ShopUI.cs" t="Include" />
             <e p="UIBase.cs" t="Include" />
+          </e>
+          <e p="VCamera" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
