@@ -61,7 +61,7 @@ public class GameMgr : MonoBehaviour
     {
         mainCamera = Camera.main;
         CameraMgr = gameObject.AddComponent<CameraMgr>();
-
+        CameraMgr.Init();
 
         TimeMgr = gameObject.AddComponent<TimeMgr>();
         TimeMgr.Inst();
