@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="05e3ee77-e6e7-4339-ab1e-d3e9a750b0ec" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="05e3ee77-e6e7-4339-ab1e-d3e9a750b0ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/ShopUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/UI/ShopUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BuildTest/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BuildTest/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+>>>>>>> parent of acc7fed0 (1)
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1421">
               <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
@@ -67,6 +83,21 @@
                 <marker date="1605351540775" expanded="true" signature="1988:2186" ph="{...}" />
                 <marker date="1605351540775" expanded="true" signature="2237:2258" ph="{...}" />
                 <marker date="1605351540775" expanded="true" signature="2297:2318" ph="{...}" />
+=======
+            <state relative-caret-position="-87">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <marker date="1605182662993" expanded="true" signature="6:126" ph="..." />
+                <marker date="1605182662993" expanded="true" signature="156:2534" ph="{...}" />
+                <marker date="1605182662993" expanded="true" signature="622:653" ph="{...}" />
+                <marker date="1605182662993" expanded="true" signature="681:702" ph="{...}" />
+                <marker date="1605182662993" expanded="true" signature="744:1283" ph="{...}" />
+                <marker date="1605182662993" expanded="true" signature="1331:1989" ph="{...}" />
+                <marker date="1605182662993" expanded="true" signature="2027:2178" ph="{...}" />
+                <marker date="1605182662993" expanded="true" signature="2215:2400" ph="{...}" />
+                <marker date="1605182662993" expanded="true" signature="2451:2472" ph="{...}" />
+                <marker date="1605182662993" expanded="true" signature="2511:2532" ph="{...}" />
+>>>>>>> parent of acc7fed0 (1)
               </folding>
             </state>
           </provider>
@@ -75,6 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="261">
               <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
@@ -84,6 +116,20 @@
                 <marker date="1605351540774" expanded="true" signature="268:314" ph="{...}" />
                 <marker date="1605351540774" expanded="true" signature="340:368" ph="{...}" />
                 <marker date="1605351540774" expanded="true" signature="385:406" ph="{...}" />
+=======
+            <state relative-caret-position="453">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+              <folding>
+                <marker date="1605182912852" expanded="true" signature="6:92" ph="..." />
+                <marker date="1605182912852" expanded="true" signature="130:993" ph="{...}" />
+                <marker date="1605182912852" expanded="true" signature="206:244" ph="{...}" />
+                <marker date="1605182912852" expanded="true" signature="268:314" ph="{...}" />
+                <marker date="1605182912852" expanded="true" signature="345:391" ph="{...}" />
+                <marker date="1605182912852" expanded="true" signature="422:468" ph="{...}" />
+                <marker date="1605182912852" expanded="true" signature="498:544" ph="{...}" />
+                <marker date="1605182912852" expanded="true" signature="574:953" ph="{...}" />
+                <marker date="1605182912852" expanded="true" signature="970:991" ph="{...}" />
+>>>>>>> parent of acc7fed0 (1)
               </folding>
             </state>
           </provider>
@@ -92,6 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1044">
               <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
@@ -101,6 +148,63 @@
                 <marker date="1605351540774" expanded="true" signature="359:648" ph="{...}" />
                 <marker date="1605351540774" expanded="true" signature="692:958" ph="{...}" />
                 <marker date="1605351540774" expanded="true" signature="998:1286" ph="{...}" />
+=======
+            <state relative-caret-position="1218">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+              <folding>
+                <marker date="1605184840002" expanded="true" signature="6:111" ph="..." />
+                <marker date="1605184840002" expanded="true" signature="147:1371" ph="{...}" />
+                <marker date="1605184840002" expanded="true" signature="340:727" ph="{...}" />
+                <marker date="1605184840002" expanded="true" signature="771:1036" ph="{...}" />
+                <marker date="1605184840002" expanded="true" signature="1076:1369" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/BuildMgr.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1334">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding>
+                <marker date="1605185554886" expanded="false" signature="6:78" ph="..." />
+                <marker date="1605185554886" expanded="true" signature="117:1632" ph="{...}" />
+                <marker date="1605185554886" expanded="true" signature="366:442" ph="{...}" />
+                <marker date="1605185554886" expanded="true" signature="473:622" ph="{...}" />
+                <marker date="1605185554886" expanded="true" signature="500:616" ph="{...}" />
+                <marker date="1605185554886" expanded="true" signature="652:1000" ph="{...}" />
+                <marker date="1605185554886" expanded="true" signature="868:994" ph="{...}" />
+                <marker date="1605185554886" expanded="true" signature="1057:1580" ph="{...}" />
+                <marker date="1605185554886" expanded="true" signature="1609:1630" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../EventModeDemo/Assets/EventModel/EventDemo/AutoDoor/PlayerCtr.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HouseTrigger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+              <folding>
+                <marker date="1605180666387" expanded="true" signature="6:92" ph="..." />
+                <marker date="1605180666387" expanded="true" signature="135:348" ph="{...}" />
+                <marker date="1605180666387" expanded="true" signature="185:242" ph="{...}" />
+                <marker date="1605180666387" expanded="true" signature="290:346" ph="{...}" />
+>>>>>>> parent of acc7fed0 (1)
               </folding>
             </state>
           </provider>
@@ -144,9 +248,19 @@
         <option value="$PROJECT_DIR$/Assets/Malbers Animations/Common/Shaders/Color3x3.shader" />
         <option value="$PROJECT_DIR$/../../UnityEngine_T/Lesson09/TowerDefence/UI/TowerBaseUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIBase.cs" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Scenes/BuildTest/BuildStruct.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/BuildTest/HouseTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HouseTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mgr/BuildMgr.cs" />
+>>>>>>> parent of acc7fed0 (1)
       </list>
     </option>
   </component>
@@ -173,6 +287,10 @@
         <option name="show-project-names" value="true" />
       </pane>
       <pane id="FileSystemExplorer" />
+<<<<<<< HEAD
+=======
+      <pane id="AssemblyExplorer" />
+>>>>>>> parent of acc7fed0 (1)
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -238,12 +356,21 @@
       <workItem from="1604987302522" duration="35000" />
       <workItem from="1604987356992" duration="13000" />
       <workItem from="1604987794419" duration="8871000" />
+<<<<<<< HEAD
       <workItem from="1605434307512" duration="389000" />
+=======
+      <workItem from="1605175076672" duration="8366000" />
+      <workItem from="1605184200511" duration="1379000" />
+>>>>>>> parent of acc7fed0 (1)
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="17327000" />
+=======
+    <option name="totallyTimeSpent" value="26683000" />
+>>>>>>> parent of acc7fed0 (1)
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,7 +384,11 @@
   <component name="ToolWindowManager">
     <frame x="494" y="165" width="974" height="1047" extended-state="0" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30415756" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14978679" />
+>>>>>>> parent of acc7fed0 (1)
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -402,6 +533,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -413,12 +545,43 @@
             <marker date="1605351540774" expanded="true" signature="268:314" ph="{...}" />
             <marker date="1605351540774" expanded="true" signature="340:368" ph="{...}" />
             <marker date="1605351540774" expanded="true" signature="385:406" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/HourseMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1605174700924" expanded="false" signature="6:78" ph="..." />
+            <marker date="1605174700924" expanded="true" signature="118:664" ph="{...}" />
+            <marker date="1605174700924" expanded="true" signature="248:324" ph="{...}" />
+            <marker date="1605174700924" expanded="true" signature="348:662" ph="{...}" />
+            <marker date="1605174700924" expanded="true" signature="477:656" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <marker date="1605182912852" expanded="true" signature="6:92" ph="..." />
+            <marker date="1605182912852" expanded="true" signature="130:993" ph="{...}" />
+            <marker date="1605182912852" expanded="true" signature="206:244" ph="{...}" />
+            <marker date="1605182912852" expanded="true" signature="268:314" ph="{...}" />
+            <marker date="1605182912852" expanded="true" signature="345:391" ph="{...}" />
+            <marker date="1605182912852" expanded="true" signature="422:468" ph="{...}" />
+            <marker date="1605182912852" expanded="true" signature="498:544" ph="{...}" />
+            <marker date="1605182912852" expanded="true" signature="574:953" ph="{...}" />
+            <marker date="1605182912852" expanded="true" signature="970:991" ph="{...}" />
+>>>>>>> parent of acc7fed0 (1)
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1044">
           <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
@@ -428,10 +591,40 @@
             <marker date="1605351540774" expanded="true" signature="359:648" ph="{...}" />
             <marker date="1605351540774" expanded="true" signature="692:958" ph="{...}" />
             <marker date="1605351540774" expanded="true" signature="998:1286" ph="{...}" />
+=======
+        <state relative-caret-position="1218">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <marker date="1605184840002" expanded="true" signature="6:111" ph="..." />
+            <marker date="1605184840002" expanded="true" signature="147:1371" ph="{...}" />
+            <marker date="1605184840002" expanded="true" signature="340:727" ph="{...}" />
+            <marker date="1605184840002" expanded="true" signature="771:1036" ph="{...}" />
+            <marker date="1605184840002" expanded="true" signature="1076:1369" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <marker date="1605182662993" expanded="true" signature="6:126" ph="..." />
+            <marker date="1605182662993" expanded="true" signature="156:2534" ph="{...}" />
+            <marker date="1605182662993" expanded="true" signature="622:653" ph="{...}" />
+            <marker date="1605182662993" expanded="true" signature="681:702" ph="{...}" />
+            <marker date="1605182662993" expanded="true" signature="744:1283" ph="{...}" />
+            <marker date="1605182662993" expanded="true" signature="1331:1989" ph="{...}" />
+            <marker date="1605182662993" expanded="true" signature="2027:2178" ph="{...}" />
+            <marker date="1605182662993" expanded="true" signature="2215:2400" ph="{...}" />
+            <marker date="1605182662993" expanded="true" signature="2451:2472" ph="{...}" />
+            <marker date="1605182662993" expanded="true" signature="2511:2532" ph="{...}" />
+>>>>>>> parent of acc7fed0 (1)
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1421">
@@ -448,12 +641,34 @@
             <marker date="1605351540775" expanded="true" signature="1988:2186" ph="{...}" />
             <marker date="1605351540775" expanded="true" signature="2237:2258" ph="{...}" />
             <marker date="1605351540775" expanded="true" signature="2297:2318" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/../../EventModeDemo/Assets/EventModel/EventDemo/AutoDoor/PlayerCtr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HouseTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1605180666387" expanded="true" signature="6:92" ph="..." />
+            <marker date="1605180666387" expanded="true" signature="135:348" ph="{...}" />
+            <marker date="1605180666387" expanded="true" signature="185:242" ph="{...}" />
+            <marker date="1605180666387" expanded="true" signature="290:346" ph="{...}" />
+>>>>>>> parent of acc7fed0 (1)
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="713">
           <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
@@ -471,6 +686,20 @@
             <marker date="1605351540774" expanded="true" signature="1885:2138" ph="{...}" />
             <marker date="1605351540774" expanded="true" signature="1938:2048" ph="{...}" />
             <marker date="1605351540774" expanded="true" signature="2162:2196" ph="{...}" />
+=======
+        <state relative-caret-position="1334">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <marker date="1605185554886" expanded="false" signature="6:78" ph="..." />
+            <marker date="1605185554886" expanded="true" signature="117:1632" ph="{...}" />
+            <marker date="1605185554886" expanded="true" signature="366:442" ph="{...}" />
+            <marker date="1605185554886" expanded="true" signature="473:622" ph="{...}" />
+            <marker date="1605185554886" expanded="true" signature="500:616" ph="{...}" />
+            <marker date="1605185554886" expanded="true" signature="652:1000" ph="{...}" />
+            <marker date="1605185554886" expanded="true" signature="868:994" ph="{...}" />
+            <marker date="1605185554886" expanded="true" signature="1057:1580" ph="{...}" />
+            <marker date="1605185554886" expanded="true" signature="1609:1630" ph="{...}" />
+>>>>>>> parent of acc7fed0 (1)
           </folding>
         </state>
       </provider>
