@@ -85,6 +85,11 @@
           <e p="HouseTrigger.cs" t="Include" />
 >>>>>>> parent of acc7fed0 (1)
           <e p="Mgr" t="Include">
+<<<<<<< HEAD
+=======
+            <e p="BuildMgr.cs" t="Include" />
+            <e p="ConfigMgr.cs" t="Include" />
+>>>>>>> parent of da34b860 (1)
             <e p="GameMgr.cs" t="Include" />
 <<<<<<< HEAD
 =======
