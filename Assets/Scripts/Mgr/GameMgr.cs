@@ -12,9 +12,12 @@ public class GameMgr : MonoBehaviour
         get => _instance;
     }
 
-<<<<<<< HEAD
-    public UIMgr UiMgr
-=======
+    public Camera mainCamera
+    {
+        get;
+        private set;
+    }
+    
     public UIMgr UIMgr
     {
         get;
@@ -31,40 +34,44 @@ public class GameMgr : MonoBehaviour
         private set;
     }
     public HourseMgr HourseMgr
->>>>>>> parent of da34b860 (1)
     {
         get;
         private set;
     }
 
+    public BuildMgr BuildMgr
+    {
+        get;
+        private set;
+    }
     private void Awake()
     {
+        _instance = this;
         Init();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+    }
+
+    public CameraMgr CameraMgr
+    {
+        get;
+        private set;
+    }
+
+    void Init()
+    {
+        /*mainCamera = Camera.main;
+        CameraMgr = gameObject.AddComponent<CameraMgr>();
+        CameraMgr.Init();
+
         TimeMgr = gameObject.AddComponent<TimeMgr>();
-=======
-        /*TimeMgr = gameObject.AddComponent<TimeMgr>();
->>>>>>> parent of da34b860 (1)
         TimeMgr.Inst();
         HourseMgr = gameObject.AddComponent<HourseMgr>();
         HourseMgr.Inst();
         ConfigMgr = gameObject.AddComponent<ConfigMgr>();
         ConfigMgr.Inst();*/
+
         BuildMgr = gameObject.AddComponent<BuildMgr>();
         BuildMgr.Init();
         UIMgr = gameObject.AddComponent<UIMgr>();
-<<<<<<< HEAD
-        //UIMgr.Init();
->>>>>>> parent of acc7fed0 (1)
-=======
         UIMgr.Init();
->>>>>>> parent of da34b860 (1)
-    }
-
-    void Init()
-    {
-        
     }
 }

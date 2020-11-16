@@ -17,6 +17,7 @@ public class ShopUI : UIBase
     
     //private Dictionary<string, Dictionary<Image, int>> _builds;
     private Dictionary<string, GameObject> _builds;
+    public GameObject build;
     private List<Toggle> _pageToggles;
     private int _pageIndex;
 
@@ -26,8 +27,6 @@ public class ShopUI : UIBase
     private void Awake()
     {
         Execute();
-        //Debug.Log(_closebtn.name);
-        
     }
 
     public void InitDate()
@@ -52,32 +51,30 @@ public class ShopUI : UIBase
 
     protected override void AddEventListener()
     {
-        _closebtn.onClick.AddListener(CloseSelf);
+        _closebtn.onClick.AddListener(delegate { GameMgr.Instance.UIMgr.HideUI(UIMgr.shopUI); });
         _nextbtn.onClick.AddListener(delegate () { this.TurnPage(true); });
         _previousbtn.onClick.AddListener(delegate () { this.TurnPage(false); });
         _buildiconSeed.transform.Find("Btn_buy")
-            .GetComponent<Button>().onClick.AddListener(BuildStruct);
+            .GetComponent<Button>().onClick.AddListener(delegate { BuildStruct("111"); });
+        
+        //临时测试obj
+        GameObject obj = Instantiate(_buildiconSeed,_buildgroup);
+        obj.SetActive(true);
+        obj.transform.Find("Btn_buy")
+            .GetComponent<Button>().onClick.AddListener(delegate { BuildStruct("111"); });
     }
 
-    void BuildStruct()
+    void BuildStruct(string _struct)
     {
-         
+        //Debug.Log(1);
+        GameMgr.Instance.BuildMgr.OnSelectBuildStruct(build);
+        GameMgr.Instance.UIMgr.HideUI(UIMgr.shopUI);
     }
     
     void TurnPage(bool _isNext)
     {
         _pageIndex = _isNext ? (_pageIndex + 1)%_pageToggles.Count : (_pageIndex - 1)<0?_pageToggles.Count-1:(_pageIndex - 1);
         _pageToggles[_pageIndex].isOn = true;
-    }
-    
-    private void CloseSelf()
-    {
-        _self.DOScale(new Vector3(0.1f, 0.1f, 1), 0.5f)
-            .SetEase(Ease.InQuad)
-            .OnComplete(delegate
-        {
-            gameObject.SetActive(false);
-        });
     }
 
     protected override void RemoveEventListener()

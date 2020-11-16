@@ -11,12 +11,20 @@ public class BuildMgr : MonoBehaviour
     
     [SerializeField]
     private bool isBuild=false;
-    private bool canBuild;
     private GameObject IsBuildPlane;
+    private Material BuildPlaneColor;
 
+    private Color trueColor;
+    private Color falseColor;
+
+    private HouseTrigger _ht;
+    
     public void Init()
     {
         IsBuildPlane = transform.Find("HousePlane").gameObject;
+        BuildPlaneColor = IsBuildPlane.GetComponent<MeshRenderer>().material;
+        trueColor = new Color(102, 255, 144, 221)/255;
+        falseColor = new Color(255, 7, 0, 121)/255;
     }
     
     private void Update()
@@ -24,8 +32,6 @@ public class BuildMgr : MonoBehaviour
         if (isBuild)
         {
             SelectPos();
-            
-            if (Input.GetMouseButtonDown(0)) SetStruct();
         }
     }
 
@@ -38,6 +44,7 @@ public class BuildMgr : MonoBehaviour
         {
             Vector3 point = ray.GetPoint(distToGround);
             SelectObj.transform.position = point;
+            if (Input.GetMouseButtonDown(0)) SetStruct(point);
         }
     }
 
@@ -45,7 +52,7 @@ public class BuildMgr : MonoBehaviour
     {
         SelectObj = Instantiate(_struct);
         BoxCollider col = SelectObj.GetComponent<BoxCollider>();
-        HouseTrigger _ht = SelectObj.AddComponent<HouseTrigger>();
+        _ht = SelectObj.AddComponent<HouseTrigger>();
         
         BuildPlaneSize = new Vector3(col.size.x,col.size.z,1);
         targetPos = col.center;
@@ -56,8 +63,19 @@ public class BuildMgr : MonoBehaviour
         isBuild = true;
     }
 
-    public void SetStruct()
+    public void SetStruct(Vector3 _pos)
     {
-        
+        IsBuildPlane.SetActive(false);
+        IsBuildPlane.transform.SetParent(GameMgr.Instance.transform);
+        SelectObj.AddComponent<Rigidbody>().useGravity = false;
+        Destroy(_ht);
+        SelectObj = null;
+        isBuild = false;
+    }
+
+    public void ChangePlaneColor(bool cbuild)
+    {
+        if(cbuild) BuildPlaneColor.color = trueColor;
+        else BuildPlaneColor.color = falseColor;
     }
 }
