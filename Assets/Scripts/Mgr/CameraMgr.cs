@@ -23,8 +23,7 @@ public class CameraMgr : MonoBehaviour
         BuildCam
     }
     private CameraState curCame;  //当前使用的虚拟相机
-    private CinemachineFollowZoom _cueZoom;
-    private const float ZoomSpeed = 40f;
+    private const float ZoomSpeed = -5f;
 
     public void Init()
     {
@@ -40,20 +39,18 @@ public class CameraMgr : MonoBehaviour
         {
             _camGroup.Add(index,cam);
             _camGroup[index].Priority = index;
-            camInitFiel.Add(_camGroup[index].GetComponent<CinemachineFollowZoom>().m_MinFOV);
             index++;
         }
         curCame = CameraState.PlayerCam;
         _camGroup[(int) curCame].Priority = maxPriority;
-        _cueZoom = _camGroup[(int) curCame].GetComponent<CinemachineFollowZoom>();
     }
 
     private void Update()
     {
         float zoom = Input.GetAxis("Mouse ScrollWheel");
         zoom = zoom * ZoomSpeed;
-        Debug.Log(zoom);
-        _cueZoom.m_MinFOV = Mathf.Clamp(_cueZoom.m_MinFOV + zoom, 20f, 90f);
+        _camGroup[(int) curCame].m_Lens.FieldOfView = 
+            Mathf.Clamp(_camGroup[(int) curCame].m_Lens.FieldOfView+zoom * ZoomSpeed,35f,80f);
     }
 
     
