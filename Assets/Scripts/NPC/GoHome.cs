@@ -17,7 +17,7 @@ public class GoHome : MonoBehaviour
     {
         if (other.tag == "NPC")
         {
-            //other.GetComponent<NPC>().InvokeRepeating("SetHomePos", 0, 5);
+            other.GetComponent<NPC>().InvokeRepeating("SetHomePos", 0, 5);
         }
     }
 
@@ -25,7 +25,7 @@ public class GoHome : MonoBehaviour
     {
         if (other.tag == "NPC")
         {
-            //other.GetComponent<NPC>().CancelInvoke("SetHomePos");  
+            other.GetComponent<NPC>().CancelInvoke("SetHomePos");  
         }
     }
 }
