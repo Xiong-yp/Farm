@@ -13,6 +13,7 @@ public class UIMgr : MonoBehaviour
     
     public const string shopUI = "ShopUI";
 
+    
     public void Init()
     {
         UIGroup = new Dictionary<string, GameObject>();
@@ -20,15 +21,22 @@ public class UIMgr : MonoBehaviour
         _mask=UIparent.Find("Mask").gameObject;
         _mask.SetActive(false);
 
-        GameObject ShopUI = Resources.Load("Prefabs/UI/ShopUI")as GameObject;
+        /*GameObject ShopUI = Resources.Load("Prefabs/UI/ShopUI")as GameObject;
         ShopUI = Instantiate(ShopUI,UIparent);
-        UIGroup.Add(shopUI,ShopUI);
+        UIGroup.Add(shopUI,ShopUI);*/
+    }
+
+    public void LoadUI()
+    {
+        string path = "Prefabs/UI";
+        GameObject ShopUI = Resources.Load("Prefabs/UI/ShopUI")as GameObject;
+        ShopUI = Instantiate(ShopUI, UIparent);
         
-        ShowUI(shopUI);
     }
     
-    public void ShowUI(string _uiName)
+    public void ShowUI(string _uiName,bool isMask=true)
     {
+        _mask.SetActive(isMask);
         RectTransform _rect = UIGroup[shopUI].GetComponent<RectTransform>();
         _rect.localScale = new Vector3(0,0,1);
         _rect.gameObject.SetActive(true);
@@ -36,7 +44,7 @@ public class UIMgr : MonoBehaviour
             .SetEase(Ease.InQuad);
     }
 
-    public void HideUI(string _uiName)
+    public void HideUI(string _uiName,bool isMask=false)
     {
         RectTransform _rect = UIGroup[shopUI].GetComponent<RectTransform>();
         _rect.DOScale(new Vector3(0.1f, 0.1f, 1), 0.5f)
@@ -44,6 +52,7 @@ public class UIMgr : MonoBehaviour
             .OnComplete(delegate
             {
                 _rect.gameObject.SetActive(false);
+                _mask.SetActive(isMask);
             });
     }
 }
