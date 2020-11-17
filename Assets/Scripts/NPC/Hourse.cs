@@ -22,12 +22,12 @@ public class Hourse : MonoBehaviour
 
         }
     }
-    NPC _temp;
+    NpcMove _temp;
     public void InstNpc(float _nowTime)
     {
         for (int i = 0; i < _myNpc.Count; i++)
         {
-            _temp = _myNpc[i].GetComponent<NPC>();
+            _temp = _myNpc[i].GetComponent<NpcMove>();
             if (_nowTime >= _temp.Startwork && _nowTime < _temp.Endwork)
             {
                 if (!_myNpc[i].activeInHierarchy)
