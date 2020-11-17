@@ -32,12 +32,19 @@ public class Npc : MonoBehaviour
         Endwork = endwork;
         _speack = speack;
     }
+<<<<<<< HEAD
+>>>>>>> parent of f4197056 (1)
+=======
 >>>>>>> parent of f4197056 (1)
 
     Animator _ani;
     NavMeshAgent _agen;
     NavMeshObstacle _obstacle;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    Hourse _temphpurse;
+>>>>>>> parent of f4197056 (1)
 =======
     Hourse _temphpurse;
 >>>>>>> parent of f4197056 (1)
@@ -50,10 +57,13 @@ public class Npc : MonoBehaviour
     float tis;
     float dis;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public int Startwork { get => _startwork; set => _startwork = value; }
     public int Endwork { get => _endwork; set => _endwork = value; }
     public Hourse Temphpurse { get => _temphpurse; set => _temphpurse = value; }
+=======
+>>>>>>> parent of f4197056 (1)
 =======
 >>>>>>> parent of f4197056 (1)
     private void Awake()
@@ -77,6 +87,7 @@ public class Npc : MonoBehaviour
     private void OnDisable()
     {
         Eventsys.GrowthTime -= Pos;
+<<<<<<< HEAD
     }
     void Pos(float _nowtime)
     {
@@ -139,6 +150,70 @@ public class Npc : MonoBehaviour
 <<<<<<< HEAD
     } 
 =======
+=======
+>>>>>>> parent of f4197056 (1)
+    }
+    void Pos(float _nowtime)
+    {
+        if (_nowtime >= Startwork && _nowtime < Endwork)
+        {
+            _target = new Vector3(Random.Range(min_x, max_x), 0, Random.Range(min_z, max_z));
+        }
+        else if (_nowtime >= Endwork)
+        {
+            _target = Temphpurse.transform.Find("Pos").position;
+        }
+        if (!_agen.isActiveAndEnabled && _obstacle.isActiveAndEnabled)
+        {
+            _obstacle.enabled = false;
+            Invoke("isagent", 0.1f);
+        }
+        else if (_agen.isActiveAndEnabled)
+            _agen.destination = _target;
+    }
+    void isagent()
+    {
+        _agen.enabled = true;
+        if (_agen.isActiveAndEnabled)
+            _agen.destination = _target;
+    }
+    void Arrive()
+    {
+        tis = dis;
+        dis = Vector3.Distance(_temphpurse.transform.position, _target);
+        if (tis != dis)
+        {
+            if (!_agen.isActiveAndEnabled && _obstacle.isActiveAndEnabled)
+            {
+                _obstacle.enabled = false;
+                Invoke("isagent", 0.1f);
+            }
+            //_ani.SetBool("grooming", false);
+            _ani.SetFloat("Speed_f", 0.5f);
+        }
+        if (_agen.pathStatus == NavMeshPathStatus.PathComplete && !_agen.hasPath && !_agen.pathPending && _agen.remainingDistance < 1f)
+        {
+            if (_agen.isActiveAndEnabled)
+            {
+                _agen.enabled = false;
+                _obstacle.enabled = true;
+            }
+
+        }
+        if (_agen.hasPath && _agen.remainingDistance < 1f)
+        {
+            if (_agen.isActiveAndEnabled)
+            {
+                _agen.enabled = false;
+                _obstacle.enabled = true;
+            }
+            //_ani.SetBool("grooming", true);
+            _ani.SetFloat("Speed_f", 0);
+
+<<<<<<< HEAD
+>>>>>>> parent of f4197056 (1)
+=======
+        }
     }
 
 >>>>>>> parent of f4197056 (1)
@@ -154,12 +229,15 @@ public class Npc : MonoBehaviour
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public void SetTime(int _start,int _end)
     {
         _startwork = _start;
         _endwork = _end;
     }
+=======
+>>>>>>> parent of f4197056 (1)
 =======
 >>>>>>> parent of f4197056 (1)
     void Update()

@@ -90,6 +90,9 @@ public class GetNpcCsvData : MonoBehaviour
             temnpc.SelfConig = new NpcConfig(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack);
 =======
             _tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack);
+<<<<<<< HEAD
+>>>>>>> parent of f4197056 (1)
+=======
 >>>>>>> parent of f4197056 (1)
 
             for (int x = 0; x < GameMgr.Instance.HourseMgr.Temphourse.Count; x++)

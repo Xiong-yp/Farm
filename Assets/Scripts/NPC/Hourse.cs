@@ -23,7 +23,11 @@ public class Hourse : MonoBehaviour
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     Npc _temp;
+=======
+    NPC _temp;
+>>>>>>> parent of f4197056 (1)
 =======
     NPC _temp;
 >>>>>>> parent of f4197056 (1)
@@ -32,7 +36,11 @@ public class Hourse : MonoBehaviour
         for (int i = 0; i < _myNpc.Count; i++)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             _temp = _myNpc[i].GetComponent<Npc>();
+=======
+            _temp = _myNpc[i].GetComponent<NPC>();
+>>>>>>> parent of f4197056 (1)
 =======
             _temp = _myNpc[i].GetComponent<NPC>();
 >>>>>>> parent of f4197056 (1)
