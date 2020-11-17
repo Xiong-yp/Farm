@@ -6,12 +6,41 @@ using UnityEngine.AI;
 public class Npc : MonoBehaviour
 {
     int _startwork;
+<<<<<<< HEAD
     int _endwork; 
     Hourse _temphpurse;
+=======
+    int _endwork;
+    string _speack;
+
+
+    public int Startwork { get => _startwork; set => _startwork = value; }
+    public int Endwork { get => _endwork; set => _endwork = value; }
+    public Hourse Temphpurse { get => _temphpurse; set => _temphpurse = value; }
+
+
+    public void Inst(int id, string name, string modle, string professional, string housename,
+        string tradable, int startwork, int endwork, string speack)
+    {
+        _id = id;
+        _name = name;
+        _modle = modle;
+        _professional = professional;
+        _housename = housename;
+        _tradable = tradable;
+        Startwork = startwork;
+        Endwork = endwork;
+        _speack = speack;
+    }
+>>>>>>> parent of f4197056 (1)
 
     Animator _ani;
     NavMeshAgent _agen;
     NavMeshObstacle _obstacle;
+<<<<<<< HEAD
+=======
+    Hourse _temphpurse;
+>>>>>>> parent of f4197056 (1)
 
     float max_x;
     float min_x;
@@ -20,10 +49,13 @@ public class Npc : MonoBehaviour
     Vector3 _target;
     float tis;
     float dis;
+<<<<<<< HEAD
 
     public int Startwork { get => _startwork; set => _startwork = value; }
     public int Endwork { get => _endwork; set => _endwork = value; }
     public Hourse Temphpurse { get => _temphpurse; set => _temphpurse = value; }
+=======
+>>>>>>> parent of f4197056 (1)
     private void Awake()
     {
         _ani = transform.GetComponent<Animator>();
@@ -104,7 +136,12 @@ public class Npc : MonoBehaviour
             _ani.SetFloat("Speed_f", 0);
 
         }
+<<<<<<< HEAD
     } 
+=======
+    }
+
+>>>>>>> parent of f4197056 (1)
     void SetHomePos()
     {
         if (GameMgr.Instance.TimeMgr.Time >= Endwork)
@@ -116,12 +153,15 @@ public class Npc : MonoBehaviour
             }
         }
     }
+<<<<<<< HEAD
 
     public void SetTime(int _start,int _end)
     {
         _startwork = _start;
         _endwork = _end;
     }
+=======
+>>>>>>> parent of f4197056 (1)
     void Update()
     {
         Arrive();

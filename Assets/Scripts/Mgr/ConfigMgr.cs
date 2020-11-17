@@ -19,7 +19,7 @@ public class ConfigMgr : MonoBehaviour
         GetNpcCsvData = gameObject.AddComponent<GetNpcCsvData>();
         GetNpcCsvData.Inst();
 
-        GetDropCsvData = gameObject.AddComponent<GetDropCsvData>();
-        GetDropCsvData.Inst();
+        //GetDropCsvData = gameObject.AddComponent<GetDropCsvData>();
+        //GetDropCsvData.Inst();
     }
 }
