@@ -84,8 +84,9 @@ public class GetNpcCsvData : MonoBehaviour
             }
             _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
             _tempnpc.SetActive(false);
-            _tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack);
-            _tempnpc.AddComponent<NpcMove>();
+            //_tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack);
+            Npc temnpc =  _tempnpc.AddComponent<Npc>();
+            temnpc.SelfConig = new NpcConfig(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack);
 
             for (int x = 0; x < GameMgr.Instance.HourseMgr.Temphourse.Count; x++)
             {
