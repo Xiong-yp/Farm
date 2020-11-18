@@ -7,7 +7,7 @@ public class GetNpcCsvData : MonoBehaviour
     string[][] Array;
     public void Inst()
     {
-        TextAsset binAsset = Resources.Load("CSV/Npc") as TextAsset;
+        TextAsset binAsset = Resources.Load("CSV/NPC") as TextAsset;
         string[] temp_lineArray = binAsset.text.Split('\r');
         Array = new string[temp_lineArray.Length][];
         for (int i = 0; i < temp_lineArray.Length; i++)
