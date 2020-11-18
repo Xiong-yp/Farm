@@ -22,11 +22,6 @@ public class GetNpcCsvData : MonoBehaviour
     string _professional;
     string _housename;
     string _tradable;
-<<<<<<< HEAD
-    int _startwork;
-    int _endwork;
-    string _speack;
-=======
     float _startwork;
     float _endwork;
     string _speack;
@@ -36,7 +31,6 @@ public class GetNpcCsvData : MonoBehaviour
     float _health;
     float _brutal;
     float _price;
->>>>>>> master
 
     void SaveTableData(string[][] m_array)
     {
@@ -79,17 +73,6 @@ public class GetNpcCsvData : MonoBehaviour
                 }
                 if (j == 6)
                 {
-<<<<<<< HEAD
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _startwork = int.Parse(tempid);
-                }
-                if (j == 7)
-                {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _endwork = int.Parse(tempid);
-=======
                     string tempstartwork = m_array[i][j];
                     tempstartwork = tempstartwork.Replace("\n", "");
                     _startwork = float.Parse(tempstartwork);
@@ -99,18 +82,11 @@ public class GetNpcCsvData : MonoBehaviour
                     string tempendwork = m_array[i][j];
                     tempendwork = tempendwork.Replace("\n", "");
                     _endwork = float.Parse(tempendwork);
->>>>>>> master
                 }
                 if (j == 8)
                 {
                     _speack = m_array[i][j];
                 }
-<<<<<<< HEAD
-            }
-            _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
-            _tempnpc.SetActive(false);
-            _tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack);
-=======
                 if (j == 9)
                 {
                     string tempattack = m_array[i][j];
@@ -152,7 +128,6 @@ public class GetNpcCsvData : MonoBehaviour
             _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
             _tempnpc.SetActive(false);
             _tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack, _attack, _attackspeed, _runspeed, _health, _brutal, _price);
->>>>>>> master
 
             for (int x = 0; x < GameMgr.Instance.HourseMgr.Temphourse.Count; x++)
             {
