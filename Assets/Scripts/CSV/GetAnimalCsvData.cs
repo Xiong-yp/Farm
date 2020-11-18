@@ -10,21 +10,21 @@ public class GetAnimalCsvData : MonoBehaviour
         public string name;
         public string modle;
         public string info;
-        public int mingrowth;
-        public int maxgrowth;
-        public int minattack;
-        public int maxattack;
-        public int minhealth;
-        public int maxhealth;
-        public int minrunspeed;
-        public int maxrunspeed;
-        public int minattackspeed;
-        public int maxattackspeed;
-        public int minproduction;
-        public int maxproduction;
+        public float mingrowth;
+        public float maxgrowth;
+        public float minattack;
+        public float maxattack;
+        public float minhealth;
+        public float maxhealth;
+        public float minrunspeed;
+        public float maxrunspeed;
+        public float minattackspeed;
+        public float maxattackspeed;
+        public float minproduction;
+        public float maxproduction;
         public string product;
-        public int buyprice;
-        public int saleprice;
+        public float buyprice;
+        public float saleprice;
     }
     public Dictionary<int, MultAnimal> multiAnimalTable = new Dictionary<int, MultAnimal>();
 
@@ -45,21 +45,21 @@ public class GetAnimalCsvData : MonoBehaviour
     string _name;
     string _modle;
     string _info;
-    int _mingrowth;
-    int _maxgrowth;
-    int _minattack;
-    int _maxattack;
-    int _minhealth;
-    int _maxhealth;
-    int _minrunspeed;
-    int _maxrunspeed;
-    int _minattackspeed;
-    int _maxattackspeed;
-    int _minproduction;
-    int _maxproduction;
+    float  _mingrowth;
+    float  _maxgrowth;
+    float _minattack;
+    float _maxattack;
+    float _minhealth;
+    float _maxhealth;
+    float _minrunspeed;
+    float _maxrunspeed;
+    float _minattackspeed;
+    float  _maxattackspeed;
+    float _minproduction;
+    float _maxproduction;
     string _product;
-    int _buyprice;
-    int _saleprice;
+    float _buyprice;
+    float _saleprice;
 
     void SaveTableData(string[][] m_array)
     {
@@ -96,73 +96,73 @@ public class GetAnimalCsvData : MonoBehaviour
                 {
                     string tempmingrowth = m_array[i][j];
                     tempmingrowth = tempmingrowth.Replace("\n", "");
-                    _mingrowth = int.Parse(tempmingrowth);
+                    _mingrowth = float.Parse(tempmingrowth);
                 }
                 if (j == 5)
                 {
                     string tempmaxgrowth = m_array[i][j];
                     tempmaxgrowth = tempmaxgrowth.Replace("\n", "");
-                    _maxgrowth = int.Parse(tempmaxgrowth);
+                    _maxgrowth = float.Parse(tempmaxgrowth);
                 }
                 if (j == 6)
                 {
                     string tempminattack = m_array[i][j];
                     tempminattack = tempminattack.Replace("\n", "");
-                    _minattack = int.Parse(tempminattack);
+                    _minattack = float.Parse(tempminattack);
                 }
                 if (j == 7)
                 {
                     string tempmaxattack = m_array[i][j];
                     tempmaxattack = tempmaxattack.Replace("\n", "");
-                    _maxattack = int.Parse(tempmaxattack);
+                    _maxattack = float.Parse(tempmaxattack);
                 }
                 if (j == 8)
                 {
                     string tempminhealth = m_array[i][j];
                     tempminhealth = tempminhealth.Replace("\n", "");
-                    _minhealth = int.Parse(tempminhealth);
+                    _minhealth = float.Parse(tempminhealth);
                 }
                 if (j == 9)
                 {
                     string tempmaxhealth = m_array[i][j];
                     tempmaxhealth = tempmaxhealth.Replace("\n", "");
-                    _maxhealth = int.Parse(tempmaxhealth);
+                    _maxhealth = float.Parse(tempmaxhealth);
                 }
                 if (j == 10)
                 {
                     string tempminrunspeed = m_array[i][j];
                     tempminrunspeed = tempminrunspeed.Replace("\n", "");
-                    _minrunspeed = int.Parse(tempminrunspeed);
+                    _minrunspeed = float.Parse(tempminrunspeed);
                 }
                 if (j == 11)
                 {
                     string tempmaxrunspeed = m_array[i][j];
                     tempmaxrunspeed = tempmaxrunspeed.Replace("\n", "");
-                    _maxrunspeed = int.Parse(tempmaxrunspeed);
+                    _maxrunspeed = float.Parse(tempmaxrunspeed);
                 }
                 if (j == 12)
                 {
                     string tempminattackspeed = m_array[i][j];
                     tempminattackspeed = tempminattackspeed.Replace("\n", "");
-                    _minattackspeed = int.Parse(tempminattackspeed);
+                    _minattackspeed = float.Parse(tempminattackspeed);
                 }
                 if (j == 13)
                 {
                     string tempmaxattackspeed = m_array[i][j];
                     tempmaxattackspeed = tempmaxattackspeed.Replace("\n", "");
-                    _maxattackspeed = int.Parse(tempmaxattackspeed);
+                    _maxattackspeed = float.Parse(tempmaxattackspeed);
                 }
                 if (j == 14)
                 {
                     string tempminproduction = m_array[i][j];
                     tempminproduction = tempminproduction.Replace("\n", "");
-                    _minproduction = int.Parse(tempminproduction);
+                    _minproduction = float.Parse(tempminproduction);
                 }
                 if (j == 15)
                 {
                     string tempmaxproduction = m_array[i][j];
                     tempmaxproduction = tempmaxproduction.Replace("\n", "");
-                    _maxproduction = int.Parse(tempmaxproduction);
+                    _maxproduction = float.Parse(tempmaxproduction);
                 }
                 if (j == 16)
                 {
@@ -172,13 +172,13 @@ public class GetAnimalCsvData : MonoBehaviour
                 {
                     string tempbuyprice = m_array[i][j];
                     tempbuyprice = tempbuyprice.Replace("\n", "");
-                    _buyprice = int.Parse(tempbuyprice);
+                    _buyprice = float.Parse(tempbuyprice);
                 }
                 if (j == 18)
                 {
                     string tempsaleprice = m_array[i][j];
                     tempsaleprice = tempsaleprice.Replace("\n", "");
-                    _saleprice = int.Parse(tempsaleprice);
+                    _saleprice = float.Parse(tempsaleprice);
                 }
                 m_str.id = _id;
                 m_str.name = _name;

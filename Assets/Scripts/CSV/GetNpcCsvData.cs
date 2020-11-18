@@ -22,15 +22,15 @@ public class GetNpcCsvData : MonoBehaviour
     string _professional;
     string _housename;
     string _tradable;
-    int _startwork;
-    int _endwork;
+    float _startwork;
+    float _endwork;
     string _speack;
-    int _attack;
-    int _attackspeed;
-    int _runspeed;
-    int _health;
-    int _brutal;
-    int _price;
+    float _attack;
+    float _attackspeed;
+    float _runspeed;
+    float _health;
+    float _brutal;
+    float _price;
 
     void SaveTableData(string[][] m_array)
     {
@@ -75,13 +75,13 @@ public class GetNpcCsvData : MonoBehaviour
                 {
                     string tempstartwork = m_array[i][j];
                     tempstartwork = tempstartwork.Replace("\n", "");
-                    _startwork = int.Parse(tempstartwork);
+                    _startwork = float.Parse(tempstartwork);
                 }
                 if (j == 7)
                 {
                     string tempendwork = m_array[i][j];
                     tempendwork = tempendwork.Replace("\n", "");
-                    _endwork = int.Parse(tempendwork);
+                    _endwork = float.Parse(tempendwork);
                 }
                 if (j == 8)
                 {
@@ -91,37 +91,37 @@ public class GetNpcCsvData : MonoBehaviour
                 {
                     string tempattack = m_array[i][j];
                     tempattack = tempattack.Replace("\n", "");
-                    _attack = int.Parse(tempattack);
+                    _attack = float.Parse(tempattack);
                 }
                 if (j == 10)
                 {
                     string tempattackspeed = m_array[i][j];
                     tempattackspeed = tempattackspeed.Replace("\n", "");
-                    _attackspeed = int.Parse(tempattackspeed);
+                    _attackspeed = float.Parse(tempattackspeed);
                 }
                 if (j == 11)
                 {
                     string temprunspeed = m_array[i][j];
                     temprunspeed = temprunspeed.Replace("\n", "");
-                    _runspeed = int.Parse(temprunspeed);
+                    _runspeed = float.Parse(temprunspeed);
                 }
                 if (j == 12)
                 {
                     string temphealth = m_array[i][j];
                     temphealth = temphealth.Replace("\n", "");
-                    _health = int.Parse(temphealth);
+                    _health = float.Parse(temphealth);
                 }
                 if (j == 13)
                 {
                     string tempbrutal = m_array[i][j];
                     tempbrutal = tempbrutal.Replace("\n", "");
-                    _brutal = int.Parse(tempbrutal);
+                    _brutal = float.Parse(tempbrutal);
                 }
                 if (j == 14)
                 {
                     string tempprice = m_array[i][j];
                     tempprice = tempprice.Replace("\n", "");
-                    _price = int.Parse(tempprice);
+                    _price = float.Parse(tempprice);
                 }
             }
             _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
