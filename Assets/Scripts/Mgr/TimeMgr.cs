@@ -10,12 +10,13 @@ public class TimeMgr : MonoBehaviour
 
     public void Inst()
     {
-        //InvokeRepeating("TimeAdd", 3, 3);
+        InvokeRepeating("TimeAdd", 3, 3);
     }
 
     private void FixedUpdate()
     {
         _Nowtime += Time.deltaTime;
+<<<<<<< HEAD
         /*if((int .Parse)(_Nowtime.ToString())%300==0)
         {
             TimeAdd(); 
@@ -24,6 +25,9 @@ public class TimeMgr : MonoBehaviour
         {
             _Nowtime = 0;
         }*/
+=======
+ 
+>>>>>>> master
     }
 
     void TimeAdd()

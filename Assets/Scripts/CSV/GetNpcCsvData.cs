@@ -7,7 +7,7 @@ public class GetNpcCsvData : MonoBehaviour
     string[][] Array;
     public void Inst()
     {
-        TextAsset binAsset = Resources.Load("CSV/Npc") as TextAsset;
+        TextAsset binAsset = Resources.Load("CSV/NPC") as TextAsset;
         string[] temp_lineArray = binAsset.text.Split('\r');
         Array = new string[temp_lineArray.Length][];
         for (int i = 0; i < temp_lineArray.Length; i++)
@@ -16,6 +16,7 @@ public class GetNpcCsvData : MonoBehaviour
         }
         SaveTableData(Array);
     }
+    
     int _id;
     string _name;
     string _modle;
@@ -121,10 +122,12 @@ public class GetNpcCsvData : MonoBehaviour
                 {
                     string tempprice = m_array[i][j];
                     tempprice = tempprice.Replace("\n", "");
+                    if(tempprice != "")
                     _price = float.Parse(tempprice);
                 }
             }
             _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
+            Debug.Log(_tempnpc.name);
             _tempnpc.SetActive(false);
             _tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack, _attack, _attackspeed, _runspeed, _health, _brutal, _price);
 
