@@ -16,12 +16,12 @@ public class Sun : MonoBehaviour
     private void Awake()
     {
        
-        /*_sunStart = Random.Range(0, 360);
+        _sunStart = Random.Range(0, 360);
         _sunLight =gameObject.GetComponent<Light>();
         gameObject.transform.Rotate(new Vector3(_sunStart, 0, 0));
         _radio = Mathf.Asin(transform.rotation.x / Mathf.Rad2Deg);
         _sunIntensity =_radio +_dayRadio;
-        _sunLight.intensity = _sunIntensity*_sunPower;*/
+        _sunLight.intensity = _sunIntensity*_sunPower;
 
       
 
