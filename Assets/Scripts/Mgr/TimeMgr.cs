@@ -4,20 +4,34 @@ using UnityEngine;
 
 public class TimeMgr : MonoBehaviour
 {
-    public float time;
-    public float Time { get => time; set => time = value; }
+    float _Nowtime;
+    float _time;
+    public float _Time { get => _time; set => _time = value; }
 
     public void Inst()
     {
-        InvokeRepeating("TimeAdd", 3, 3);
+        //InvokeRepeating("TimeAdd", 3, 3);
+    }
+
+    private void FixedUpdate()
+    {
+        _Nowtime += Time.deltaTime;
+        if((int .Parse)(_Nowtime.ToString())%300==0)
+        {
+            TimeAdd(); 
+        }
+        if((int.Parse)(_Nowtime.ToString()) % 3600==0)
+        {
+            _Nowtime = 0;
+        }
     }
 
     void TimeAdd()
     {
-        if (Time < 23)
-            Time++;
+        if (_Time < 23)
+            _Time++;
         else
-            Time = 0;
-        Eventsys.RaiseeShowTime(Time);
+            _Time = 0;
+        Eventsys.RaiseeShowTime(_Time);
     }
 }
