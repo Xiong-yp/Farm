@@ -53,6 +53,7 @@ public class GetDropCsvData : MonoBehaviour
         int _nCol = m_array[0].Length;
         for (int i = 1; i < _nRow; i++)
         {
+            MultDrop m_str = new MultDrop();
             for (int j = 0; j < _nCol; j++)
             {
                 if (j == 0)
@@ -79,34 +80,44 @@ public class GetDropCsvData : MonoBehaviour
                 }
                 if (j == 5)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _overlay = int.Parse(tempid);
+                    string tempoverlay = m_array[i][j];
+                    tempoverlay = tempoverlay.Replace("\n", "");
+                    _overlay = int.Parse(tempoverlay);
                 }
                 if (j == 6)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _minget = int.Parse(tempid);
+                    string tempminget = m_array[i][j];
+                    tempminget = tempminget.Replace("\n", "");
+                    _minget = int.Parse(tempminget);
                 }
                 if (j == 7)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _maxget = int.Parse(tempid);
+                    string tempmaxget = m_array[i][j];
+                    tempmaxget = tempmaxget.Replace("\n", "");
+                    _maxget = int.Parse(tempmaxget);
                 }
                 if (j == 8)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _buyprice = int.Parse(tempid);
+                    string tempbuyprice = m_array[i][j];
+                    tempbuyprice = tempbuyprice.Replace("\n", "");
+                    _buyprice = int.Parse(tempbuyprice);
                 }
                 if (j == 9)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _saleprice = int.Parse(tempid);
+                    string tempsaleprice = m_array[i][j];
+                    tempsaleprice = tempsaleprice.Replace("\n", "");
+                    _saleprice = int.Parse(tempsaleprice);
                 }
+                m_str.id = _id;
+                m_str.name = _name;
+                m_str.picture = _picture;
+                m_str.modle = _modle;
+                m_str.info = _info;
+                m_str.overlay = _overlay;
+                m_str.minget = _minget;
+                m_str.maxget = _maxget;
+                m_str.buyprice = _buyprice;
+                m_str.saleprice = _saleprice;
             }
         }
     }
