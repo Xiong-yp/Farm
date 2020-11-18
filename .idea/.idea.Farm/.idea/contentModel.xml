@@ -40,11 +40,12 @@
             <e p="GetDropCsvData.cs" t="Include" />
             <e p="GetNpcCsvData.cs" t="Include" />
           </e>
-          <e p="Eventsys.cs" t="Include" />
+          <e p="Item.cs" t="Include" />
           <e p="Mgr" t="Include">
             <e p="BuildMgr.cs" t="Include" />
             <e p="CameraMgr.cs" t="Include" />
             <e p="ConfigMgr.cs" t="Include" />
+            <e p="Eventsys.cs" t="Include" />
             <e p="GameMgr.cs" t="Include" />
             <e p="HourseMgr.cs" t="Include" />
             <e p="TimeMgr.cs" t="Include" />
@@ -61,6 +62,7 @@
           </e>
           <e p="UI" t="Include">
             <e p="ShopUI.cs" t="Include" />
+            <e p="TalkUI.cs" t="Include" />
             <e p="UIBase.cs" t="Include" />
           </e>
         </e>
