@@ -14,6 +14,12 @@ public class NPC : MonoBehaviour
     int _startwork;
     int _endwork;
     string _speack;
+    int _attack;
+    int _attackspeed;
+    int _runspeed;
+    int _health;
+    int _brutal;
+    int _price;
 
 
     public int Startwork { get => _startwork; set => _startwork = value; }
@@ -22,7 +28,7 @@ public class NPC : MonoBehaviour
 
 
     public void Inst(int id, string name, string modle, string professional, string housename,
-        string tradable, int startwork, int endwork, string speack)
+        string tradable, int startwork, int endwork, string speack, int attack, int attackspeed, int runspeed, int health, int brutal, int price)
     {
         _id = id;
         _name = name;
@@ -33,6 +39,12 @@ public class NPC : MonoBehaviour
         Startwork = startwork;
         Endwork = endwork;
         _speack = speack;
+        _attack = attack;
+        _attackspeed = attackspeed;
+        _runspeed = runspeed;
+        _health = health;
+        _brutal = brutal;
+        _price = price;
     }
 
     Animator _ani;

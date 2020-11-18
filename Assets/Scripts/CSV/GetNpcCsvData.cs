@@ -25,6 +25,12 @@ public class GetNpcCsvData : MonoBehaviour
     int _startwork;
     int _endwork;
     string _speack;
+    int _attack;
+    int _attackspeed;
+    int _runspeed;
+    int _health;
+    int _brutal;
+    int _price;
 
     void SaveTableData(string[][] m_array)
     {
@@ -81,10 +87,46 @@ public class GetNpcCsvData : MonoBehaviour
                 {
                     _speack = m_array[i][j];
                 }
+                if (j == 9)
+                {
+                    string tempid = m_array[i][j];
+                    tempid = tempid.Replace("\n", "");
+                    _attack = int.Parse(tempid);
+                }
+                if (j == 10)
+                {
+                    string tempid = m_array[i][j];
+                    tempid = tempid.Replace("\n", "");
+                    _attackspeed = int.Parse(tempid);
+                }
+                if (j == 11)
+                {
+                    string tempid = m_array[i][j];
+                    tempid = tempid.Replace("\n", "");
+                    _runspeed = int.Parse(tempid);
+                }
+                if (j == 12)
+                {
+                    string tempid = m_array[i][j];
+                    tempid = tempid.Replace("\n", "");
+                    _health = int.Parse(tempid);
+                }
+                if (j == 13)
+                {
+                    string tempid = m_array[i][j];
+                    tempid = tempid.Replace("\n", "");
+                    _brutal = int.Parse(tempid);
+                }
+                if (j == 14)
+                {
+                    string tempid = m_array[i][j];
+                    tempid = tempid.Replace("\n", "");
+                    _price = int.Parse(tempid);
+                }
             }
             _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
             _tempnpc.SetActive(false);
-            _tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack);
+            _tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack, _attack, _attackspeed, _runspeed, _health, _brutal, _price);
 
             for (int x = 0; x < GameMgr.Instance.HourseMgr.Temphourse.Count; x++)
             {
