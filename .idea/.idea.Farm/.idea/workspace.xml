@@ -407,8 +407,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/TalkUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+            <state relative-caret-position="265">
+              <caret line="108" column="8" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
               <folding>
                 <marker date="1605692885170" expanded="true" signature="6:132" ph="..." />
                 <marker date="1605692885170" expanded="true" signature="162:3284" ph="{...}" />
@@ -482,7 +482,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1856">
+            <state relative-caret-position="1827">
               <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
               <folding>
                 <marker date="1605691723858" expanded="false" signature="6:152" ph="..." />
@@ -658,7 +658,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="237" />
     <option name="y" value="70" />
     <option name="width" value="974" />
@@ -740,12 +740,12 @@
       <workItem from="1605617831818" duration="12889000" />
       <workItem from="1605683080204" duration="3000" />
       <workItem from="1605683142100" duration="1233000" />
-      <workItem from="1605692642509" duration="242000" />
+      <workItem from="1605692642509" duration="505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60025000" />
+    <option name="totallyTimeSpent" value="60288000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,7 +757,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15458423" />
@@ -1168,7 +1168,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1856">
+        <state relative-caret-position="1827">
           <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
           <folding>
             <marker date="1605691723858" expanded="false" signature="6:152" ph="..." />
@@ -1262,8 +1262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/TalkUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
+        <state relative-caret-position="265">
+          <caret line="108" column="8" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
           <folding>
             <marker date="1605692885170" expanded="true" signature="6:132" ph="..." />
             <marker date="1605692885170" expanded="true" signature="162:3284" ph="{...}" />
