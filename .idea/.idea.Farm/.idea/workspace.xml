@@ -201,6 +201,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/HourseMgr.cs">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
@@ -221,6 +222,28 @@
             <state relative-caret-position="435">
               <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1605528372163" expanded="false" signature="6:78" ph="..." />
+                <marker date="1605528372163" expanded="true" signature="118:664" ph="{...}" />
+                <marker date="1605528372163" expanded="true" signature="248:324" ph="{...}" />
+                <marker date="1605528372163" expanded="true" signature="348:662" ph="{...}" />
+                <marker date="1605528372163" expanded="true" signature="477:656" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../EventModeDemo/Assets/EventModel/EventDemo/AutoDoor/PlayerCtr.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+>>>>>>> parent of 568aa97d (1)
                 <element signature="e#0#92#0" expanded="true" />
               </folding>
             </state>
@@ -288,9 +311,15 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="237" />
     <option name="y" value="70" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="745" />
+    <option name="y" value="58" />
+>>>>>>> parent of 568aa97d (1)
 =======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="745" />
