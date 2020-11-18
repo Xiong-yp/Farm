@@ -100,7 +100,8 @@ public class GetDropCsvData : MonoBehaviour
                 {
                     string tempbuyprice = m_array[i][j];
                     tempbuyprice = tempbuyprice.Replace("\n", "");
-                    _buyprice = float.Parse(tempbuyprice);
+                    if (tempbuyprice != "")
+                        _buyprice = float.Parse(tempbuyprice);
                 }
                 if (j == 9)
                 {
@@ -119,6 +120,7 @@ public class GetDropCsvData : MonoBehaviour
                 m_str.buyprice = _buyprice;
                 m_str.saleprice = _saleprice;
             }
+            multiDropTable.Add(_id, m_str);
         }
     }
 }
