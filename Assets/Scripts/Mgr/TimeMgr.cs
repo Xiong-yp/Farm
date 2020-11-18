@@ -16,14 +16,14 @@ public class TimeMgr : MonoBehaviour
     private void FixedUpdate()
     {
         _Nowtime += Time.deltaTime;
-        if((int .Parse)(_Nowtime.ToString())%300==0)
+        /*if((int .Parse)(_Nowtime.ToString())%300==0)
         {
             TimeAdd(); 
         }
         if((int.Parse)(_Nowtime.ToString()) % 3600==0)
         {
             _Nowtime = 0;
-        }
+        }*/
     }
 
     void TimeAdd()
