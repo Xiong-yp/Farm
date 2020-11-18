@@ -16,7 +16,6 @@ public class GetNpcCsvData : MonoBehaviour
         }
         SaveTableData(Array);
     }
-    
     int _id;
     string _name;
     string _modle;
@@ -127,7 +126,6 @@ public class GetNpcCsvData : MonoBehaviour
                 }
             }
             _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
-            Debug.Log(_tempnpc.name);
             _tempnpc.SetActive(false);
             _tempnpc.AddComponent<NPC>().Inst(_id, _name, _modle, _professional, _housename, _tradable, _startwork, _endwork, _speack, _attack, _attackspeed, _runspeed, _health, _brutal, _price);
 
