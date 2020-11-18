@@ -131,7 +131,7 @@ public class NPC : MonoBehaviour
 
     void SetHomePos()
     {
-        if (GameMgr.Instance.TimeMgr.Time >= Endwork)
+        if (GameMgr.Instance.TimeMgr._Time >= Endwork)
         {
             if (gameObject.activeInHierarchy)
             {

@@ -56,6 +56,16 @@ public class GameMgr : MonoBehaviour
         private set;
     }
 
+
+    public SunLightMgr SunLightMgr//昼夜光照管理脚本
+    {
+        get;
+       private set;
+    }
+
+
+
+
     void Init()
     {
         mainCamera = Camera.main;
@@ -69,9 +79,17 @@ public class GameMgr : MonoBehaviour
         ConfigMgr = gameObject.AddComponent<ConfigMgr>();
         ConfigMgr.Inst();
 
+        //昼夜光照系统
+        SunLightMgr = gameObject.AddComponent<SunLightMgr>();
+        SunLightMgr.Inst();
+
         BuildMgr = gameObject.AddComponent<BuildMgr>();
-        BuildMgr.Init();
+        //BuildMgr.Init();
         UIMgr = gameObject.AddComponent<UIMgr>();
         UIMgr.Init();
+
+       
+
+
     }
 }

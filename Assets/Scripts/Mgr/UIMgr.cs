@@ -17,8 +17,8 @@ public class UIMgr : MonoBehaviour
     {
         UIGroup = new Dictionary<string, GameObject>();
         UIparent = transform.Find("UIMgr");
-        _mask=UIparent.Find("Mask").gameObject;
-        _mask.SetActive(false);
+        //_mask=UIparent.Find("Mask").gameObject;
+        //_mask.SetActive(false);
 
         GameObject ShopUI = Resources.Load("Prefabs/UI/ShopUI")as GameObject;
         ShopUI = Instantiate(ShopUI,UIparent);
