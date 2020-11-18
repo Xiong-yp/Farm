@@ -51,7 +51,9 @@
           <e p="CreatTree.cs" t="Include" />
           <e p="CSV" t="Include">
             <e p="GetAnimalCsvData.cs" t="Include" />
+            <e p="GetCommodityCsvData.cs" t="Include" />
             <e p="GetDropCsvData.cs" t="Include" />
+            <e p="GetMonsterCsvData.cs" t="Include" />
             <e p="GetNpcCsvData.cs" t="Include" />
           </e>
           <e p="Item.cs" t="Include" />
