@@ -26,10 +26,13 @@ public class TalkUI : UIBase
     //private Text _talkText;
     private Button _talkTextBtn;
     [SerializeField]
-    private float waitTime=0.5f; 
+    private float waitTime=0.5f;
+
+    private bool isShoShopbtn;
     
     protected override void InitUI()
     {
+        isShoShopbtn = false;
         _ShopBtn = transform.Find("ShopBtn").GetComponent<Button>();
         _ShopText = transform.Find("ShopBtn/Text").GetComponent<TextMeshProUGUI>();
         
@@ -97,8 +100,13 @@ public class TalkUI : UIBase
             _talkText.text = _talkstring;
         }
 
-        GameMgr.Instance.UIMgr.ShowUI(_ShopBtn.gameObject);
-        GameMgr.Instance.UIMgr.ShowUI(_backBtn.gameObject);
+        if (!isShoShopbtn)
+        {
+            isShoShopbtn = true;
+            GameMgr.Instance.UIMgr.ShowUI(_ShopBtn.gameObject);
+            GameMgr.Instance.UIMgr.ShowUI(_backBtn.gameObject);
+        }
+        
     }
     
     

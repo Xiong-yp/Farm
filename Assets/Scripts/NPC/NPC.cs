@@ -11,18 +11,24 @@ public class NPC : MonoBehaviour
     string _professional;
     string _housename;
     string _tradable;
-    int _startwork;
-    int _endwork;
+    float _startwork;
+    float _endwork;
     string _speack;
+    float _attack;
+    float _attackspeed;
+    float _runspeed;
+    float _health;
+    float _brutal;
+    float _price;
 
 
-    public int Startwork { get => _startwork; set => _startwork = value; }
-    public int Endwork { get => _endwork; set => _endwork = value; }
+    public float Startwork { get => _startwork; set => _startwork = value; }
+    public float Endwork { get => _endwork; set => _endwork = value; }
     public Hourse Temphpurse { get => _temphpurse; set => _temphpurse = value; }
 
 
     public void Inst(int id, string name, string modle, string professional, string housename,
-        string tradable, int startwork, int endwork, string speack)
+        string tradable, float startwork, float endwork, string speack, float attack, float attackspeed, float runspeed, float health, float brutal, float price)
     {
         _id = id;
         _name = name;
@@ -33,6 +39,12 @@ public class NPC : MonoBehaviour
         Startwork = startwork;
         Endwork = endwork;
         _speack = speack;
+        _attack = attack;
+        _attackspeed = attackspeed;
+        _runspeed = runspeed;
+        _health = health;
+        _brutal = brutal;
+        _price = price;
     }
 
     Animator _ani;
@@ -131,7 +143,7 @@ public class NPC : MonoBehaviour
 
     void SetHomePos()
     {
-        if (GameMgr.Instance.TimeMgr.Time >= Endwork)
+        if (GameMgr.Instance.TimeMgr._Time >= Endwork)
         {
             if (gameObject.activeInHierarchy)
             {

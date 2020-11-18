@@ -2,20 +2,366 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05e3ee77-e6e7-4339-ab1e-d3e9a750b0ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Farm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_036.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_059.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_070.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_070.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_087.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_088.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/Assets/Sprites/Crop_B_256/Crop_B_256_088.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_01_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_01_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_01_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_01_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_02_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_02_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_02_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_02_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_03_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_03_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_03_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_03_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_04_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_04_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_04_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Alts/PolygonFarm_04_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/Blank.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/Blank.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Clouds.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Clouds.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Fence.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Fence.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Leaf_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Leaf_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Plastic.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Plastic.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Signs_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Signs_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/Misc/PolygonFarm_Water.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/PolygonFarm_01_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/PolygonFarm_01_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/PolygonFarm_02_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/PolygonFarm_02_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/PolygonFarm_03_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/PolygonFarm_03_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/PolygonFarm_04_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Materials/PolygonFarm_04_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/PolygonFarm_Texture_01_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/PolygonFarm_Texture_01_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/PolygonFarm_Texture_01_A_2k.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/PolygonFarm_Texture_01_A_2k.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/PolygonTown_Texture_01_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/PolygonTown_Texture_01_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/lambert1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/lambert1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/lambert853.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Crop Item Set pack/PolygonFarm/Models/Materials/lambert853.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Cow Mega Toon Series/FBX/Cow.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Cow Mega Toon Series/FBX/Cow.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Cow Mega Toon Series/Materials/Cow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Cow Mega Toon Series/Materials/Cow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Donkey Mega Toon Series/Materials/Donkey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Donkey Mega Toon Series/Materials/Donkey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Farm Demo Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Farm Demo Assets/Farm.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Farm Demo Assets/Farm.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Farm Demo Assets/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Farm Demo Assets/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Farm Demo Assets/Ground.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Farm Demo Assets/Ground.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Goat Mega toon Series/Materials/Goat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Goat Mega toon Series/Materials/Goat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Meshtint Free Chick Mega Toon Series/Materials/Mega Toon Chick.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Meshtint Free Chick Mega Toon Series/Materials/Mega Toon Chick.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Meshtint Free Chicken Mega Toon Series/Materials/Mega Toon Chicken.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Meshtint Free Chicken Mega Toon Series/Materials/Mega Toon Chicken.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Pig Mega Toon Series/Materials/Pig.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Pig Mega Toon Series/Materials/Pig.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Sheep Mega Toon Series/Materials/Sheep.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Farm Animals Pack Mega Toon Series/Sheep Mega Toon Series/Materials/Sheep.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/bare.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/bare.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/blue.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/bone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/bone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/brown 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/brown 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/brown 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/brown 3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/dark gray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/dark gray.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/dark_brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/dark_brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/gold.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/gold.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/grass01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/grass01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/grass02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/grass02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/grass03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/grass03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/grass04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/grass04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/gray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/gray.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/green 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/green 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/green 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/green 3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/land01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/land01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/light yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/light yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/light_brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/light_brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/metal01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/metal01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/metal02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/metal02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/orange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/orange.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/pink.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/pink.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/red 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/red 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/stone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/stone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/stone_wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/stone_wall.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/violet 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/violet 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/violet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/violet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/water.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/white.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/white.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/wooden_wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/wooden_wall.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Assets 1/materials/yellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Ash.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Ash.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/AutumnLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/AutumnLeaves.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Bricks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Bricks.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/DirtGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/DirtGround.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/ForestFloor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/ForestFloor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/ForestFloorGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/ForestFloorGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Grass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/MetalPlate.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/MetalPlate.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/PavementGray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/PavementGray.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Rock.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Rock.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/SandAndStones.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/SandAndStones.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Tiles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Tiles.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/DiffuseMaps/Materials/Water.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Ash.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Ash.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/AutumnLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/AutumnLeaves.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Bricks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Bricks.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/CrackedStoneA.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/CrackedStoneA.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/CrackedStoneB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/CrackedStoneB.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Desert.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Desert.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/DirtGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/DirtGround.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/DryGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/DryGround.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/FlowerCover.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/FlowerCover.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/FlowerField.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/FlowerField.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/ForestFloor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/ForestFloor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/ForestFloorGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/ForestFloorGreen.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Grass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Ice.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Ice.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/LavaGround.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/LavaGround.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/MetalPlate.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/MetalPlate.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/PavementGray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/PavementGray.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/PavementYellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/PavementYellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Rock.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Rock.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SandAndStones.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SandAndStones.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SimpleSand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SimpleSand.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SmoothSand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SmoothSand.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Snow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Snow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SquarePavementGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SquarePavementGrey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SquarePavementYellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SquarePavementYellow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SticksLeaves.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/SticksLeaves.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Stone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Stone.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Stones.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Stones.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Tiles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Tiles.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/Water.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/WoodFloor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Cartoon Textures/Materials/WoodFloor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/My Farm/Materials/building_glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/My Farm/Materials/building_glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/My Farm/Materials/car_glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/My Farm/Materials/car_glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/My Farm/Materials/maintexture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/My Farm/Materials/maintexture.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Demo/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Demo/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarm.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarm.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarm_Scarecrow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarm_Scarecrow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmWrangler_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmWrangler_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmWrangler_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmWrangler_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmWrangler_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmWrangler_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_Farmer_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_Farmer_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_Farmer_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_Farmer_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_Farmer_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_Farmer_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersDaughter_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersDaughter_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersDaughter_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersDaughter_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersDaughter_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersDaughter_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersWife_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersWife_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersWife_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersWife_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersWife_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleFarm/Materials/SimpleFarmer_FarmersWife_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Demo/Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Demo/Grey.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/ATM_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/ATM_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/ATM_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/ATM_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_D.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_D.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_E.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Billboard_E.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Bush.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Bush.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/CardboardBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/CardboardBox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Cart_Donut.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Cart_Donut.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Cart_Hotdog.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Cart_Hotdog.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Cart_IceCream.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Cart_IceCream.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Dumpster_A (1).mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Dumpster_A (1).mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Dumpster_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Dumpster_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Dumpster_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Dumpster_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Dumpster_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Dumpster_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Fold_Sign_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Fold_Sign_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Litter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Litter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Paper_Box_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Paper_Box_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Paper_Box_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Paper_Box_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/PowerBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/PowerBox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Props_mix_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Props_mix_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Signs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Signs.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Toilet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/Toilet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_C 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_C 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_C 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_C 3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/VendingMachine_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/phonebooth_UK_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/phonebooth_UK_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/phonebooth_UK_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/phonebooth_UK_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/post_Box_a.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/SimpleProps/_Materials/post_Box_a.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/FK04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Farm01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Farm01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower06.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower06.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower07.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower07.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower08.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower08.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower09.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower09.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower10.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower11.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower11.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower13.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower13.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower14.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Flower14.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Grass02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Grass02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground05.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Ground05.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain06.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain06.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain08.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain08.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain09.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain09.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain10.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain10.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain11.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain11.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain12.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Terrain12.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Tree.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/buildings/Materials/Tree.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/CSV/NPC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/CSV/NPC.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Drop/Picture/Crop_B_256_009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Drop/Picture/Crop_B_256_009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Drop/Prefabs/Materials/FK02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Drop/Prefabs/Materials/FK02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/sea 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/sea 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/sea 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/sea 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/sea.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/sea.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/tow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/tow.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/BuildTest/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BuildTest/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Eventsys.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Eventsys.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mgr/CameraMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mgr/CameraMgr.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BuildTest/green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BuildTest/green.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CSV/GetDropCsvData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CSV/GetDropCsvData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CSV/GetNpcCsvData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CSV/GetNpcCsvData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mgr/ConfigMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mgr/ConfigMgr.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mgr/TimeMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mgr/TimeMgr.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/TalkUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/TalkUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Demo/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Demo/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Biker_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Biker_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Biker_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Biker_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Biker_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Biker_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Cheerleader_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Cheerleader_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Cheerleader_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Cheerleader_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Cheerleader_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Cheerleader_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Clown_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Clown_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Clown_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Clown_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Clown_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Clown_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Emo_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Emo_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Emo_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Emo_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Emo_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Emo_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Footballer_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Footballer_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Footballer_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Footballer_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Footballer_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Footballer_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandma_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandma_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandma_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandma_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandma_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandma_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandpa_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandpa_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandpa_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandpa_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandpa_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Grandpa_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Hippie_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Hippie_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Hippie_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Hippie_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Hippie_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Hippie_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Luchador_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Luchador_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Luchador_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Luchador_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Luchador_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Luchador_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Mountie_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Mountie_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Mountie_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Mountie_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Mountie_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Mountie_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Nerd_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Nerd_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Nerd_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Nerd_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Nerd_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Nerd_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Prisoner_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Prisoner_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Prisoner_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Prisoner_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Prisoner_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Prisoner_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Racer_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Racer_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Racer_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Racer_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Racer_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Racer_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Runner_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Runner_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Runner_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Runner_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Runner_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Runner_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_ShopKeeper_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_ShopKeeper_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_ShopKeeper_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_ShopKeeper_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_ShopKeeper_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_ShopKeeper_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Tourist_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Tourist_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Tourist_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Tourist_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Tourist_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleCitizens/Materials/SimpleCitizens_Tourist_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Barista_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Barista_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Barista_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Barista_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Barista_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Barista_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Boxer_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Boxer_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Boxer_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Boxer_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Boxer_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Boxer_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DareDevil_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DareDevil_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DareDevil_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DareDevil_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DareDevil_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DareDevil_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DiscoGuy_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DiscoGuy_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DiscoGuy_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DiscoGuy_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DiscoGuy_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_DiscoGuy_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Diver_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Diver_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Diver_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Diver_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Diver_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Diver_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_HipsterMan_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_HipsterMan_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_HipsterMan_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_HipsterMan_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_HipsterMan_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_HipsterMan_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_MexicanGangster_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_MexicanGangster_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_MexicanGangster_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_MexicanGangster_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_MexicanGangster_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_MexicanGangster_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Rapper_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Rapper_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Rapper_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Rapper_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Rapper_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Rapper_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Reporter_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Reporter_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Reporter_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Reporter_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Reporter_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_Reporter_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_StripperGuy_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_StripperGuy_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_StripperGuy_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_StripperGuy_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_StripperGuy_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_StripperGuy_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_SurferDude_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_SurferDude_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_SurferDude_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_SurferDude_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_SurferDude_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/Materials/SP2_Character_SurferDude_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople2/_Demo/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople2/_Demo/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_AsianMaster_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_AsianMaster_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_AsianMaster_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_AsianMaster_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_AsianMaster_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_AsianMaster_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Aviator_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Aviator_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Aviator_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Aviator_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Aviator_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Aviator_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Captain_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Captain_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Captain_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Captain_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Captain_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Captain_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Cook_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Cook_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Cook_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Cook_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Cook_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Cook_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_EnglishGuard_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_EnglishGuard_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_EnglishGuard_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_EnglishGuard_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_EnglishGuard_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_EnglishGuard_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Graduate_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Graduate_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Graduate_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Graduate_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Graduate_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Graduate_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_HulaGirl_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_HulaGirl_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_HulaGirl_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_HulaGirl_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_HulaGirl_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_HulaGirl_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_LifeSaverWoman_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_LifeSaverWoman_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_LifeSaverWoman_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_LifeSaverWoman_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_LifeSaverWoman_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_LifeSaverWoman_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_RoadCop_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_RoadCop_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_RoadCop_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_RoadCop_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_RoadCop_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_RoadCop_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Sailor_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Sailor_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Sailor_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Sailor_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Sailor_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_Sailor_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_SchoolGirl_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_SchoolGirl_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_SchoolGirl_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_SchoolGirl_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_SchoolGirl_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_SchoolGirl_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_WeightLifter_Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_WeightLifter_Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_WeightLifter_Brown.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_WeightLifter_Brown.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_WeightLifter_White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimplePeople3/Materials/SimplePeople3_WeightLifter_White.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/farm/Buildings/Building_Windmill.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/farm/Buildings/Building_Windmill.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/yfarm/Rock_Stones 1/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/yfarm/Rock_Stones 1/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/yfarm/Trees 1/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/yfarm/Trees 1/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,56 +371,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/TalkUI.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+            <state relative-caret-position="319">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
-                <marker date="1605684340653" expanded="true" signature="6:132" ph="..." />
-                <marker date="1605684340653" expanded="true" signature="162:3126" ph="{...}" />
-                <marker date="1605684340653" expanded="true" signature="777:1689" ph="{...}" />
-                <marker date="1605684340653" expanded="true" signature="1710:1731" ph="{...}" />
-                <marker date="1605684340653" expanded="true" signature="1759:1963" ph="{...}" />
-                <marker date="1605684340653" expanded="true" signature="1827:1935" ph="{...}" />
-                <marker date="1605684340653" expanded="true" signature="2011:2514" ph="{...}" />
-                <marker date="1605684340653" expanded="true" signature="2565:2769" ph="{...}" />
-                <marker date="1605684340653" expanded="true" signature="2794:3055" ph="{...}" />
-                <marker date="1605684340653" expanded="true" signature="2827:2928" ph="{...}" />
-                <marker date="1605684340653" expanded="true" signature="3103:3124" ph="{...}" />
+                <marker date="1605692337304" expanded="false" signature="6:100" ph="..." />
+                <marker date="1605692337304" expanded="true" signature="134:4446" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="929:1357" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="1601:1784" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="1812:2249" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="2278:2326" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="2355:2912" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="2418:2532" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="2570:2655" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="2726:2822" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="2931:3052" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="3070:4122" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="3192:3490" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="3277:3389" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="3626:3798" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="3678:3787" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="3857:4116" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="3909:4018" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="4145:4395" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="4206:4389" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="4262:4379" ph="{...}" />
+                <marker date="1605692337304" expanded="true" signature="4413:4444" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/TalkUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-870">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="321">
+              <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
               <folding>
-                <marker date="1605528372167" expanded="false" signature="6:100" ph="..." />
-                <marker date="1605528372167" expanded="true" signature="134:4055" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="707:967" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="1211:1394" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="1422:1859" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="1888:1936" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="1965:2522" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="2028:2142" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="2180:2265" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="2336:2432" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="2541:2662" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="2680:3732" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="2802:3100" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="2887:2999" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="3236:3408" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="3288:3397" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="3467:3726" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="3519:3628" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="3755:4004" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="3815:3998" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="3871:3988" ph="{...}" />
-                <marker date="1605528372167" expanded="true" signature="4022:4053" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="6:132" ph="..." />
+                <marker date="1605692885170" expanded="true" signature="162:3284" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="808:1750" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="1771:1792" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="1820:2024" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="1888:1996" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="2072:2575" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="2626:2830" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="2855:3213" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="2888:2989" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="3017:3198" ph="{...}" />
+                <marker date="1605692885170" expanded="true" signature="3261:3282" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -92,22 +439,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="1566">
               <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
               <folding>
-                <marker date="1605683503694" expanded="false" signature="6:92" ph="..." />
-                <marker date="1605683503694" expanded="true" signature="130:1409" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="206:244" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="274:320" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="348:394" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="425:471" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="499:545" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="576:622" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="652:698" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="723:777" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="809:855" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="872:1407" ph="{...}" />
-                <marker date="1605683503694" expanded="true" signature="887:1247" ph="/* mainCamera = Camera.main; ... */" />
+                <marker date="1605691723857" expanded="false" signature="6:92" ph="..." />
+                <marker date="1605691723857" expanded="true" signature="130:1409" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="206:244" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="274:320" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="348:394" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="425:471" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="499:545" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="576:622" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="652:698" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="723:777" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="809:855" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="872:1407" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="887:1247" ph="/* mainCamera = Camera.main; ... */" />
               </folding>
             </state>
           </provider>
@@ -116,17 +463,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/CameraMgr.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
+            <state relative-caret-position="609">
               <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
               <folding>
-                <marker date="1605617450345" expanded="true" signature="6:162" ph="..." />
-                <marker date="1605617450345" expanded="true" signature="202:1989" ph="{...}" />
-                <marker date="1605617450345" expanded="true" signature="475:525" ph="{...}" />
-                <marker date="1605617450345" expanded="true" signature="635:1344" ph="{...}" />
-                <marker date="1605617450345" expanded="true" signature="1114:1240" ph="{...}" />
-                <marker date="1605617450345" expanded="true" signature="1371:1625" ph="{...}" />
-                <marker date="1605617450345" expanded="true" signature="1665:1763" ph="{...}" />
-                <marker date="1605617450345" expanded="true" signature="1828:1987" ph="{...}" />
+                <marker date="1605691723856" expanded="false" signature="6:162" ph="..." />
+                <marker date="1605691723856" expanded="true" signature="202:1989" ph="{...}" />
+                <marker date="1605691723856" expanded="true" signature="475:525" ph="{...}" />
+                <marker date="1605691723856" expanded="true" signature="635:1344" ph="{...}" />
+                <marker date="1605691723856" expanded="true" signature="1114:1240" ph="{...}" />
+                <marker date="1605691723856" expanded="true" signature="1371:1625" ph="{...}" />
+                <marker date="1605691723856" expanded="true" signature="1665:1763" ph="{...}" />
+                <marker date="1605691723856" expanded="true" signature="1828:1987" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -135,22 +482,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-591">
-              <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+            <state relative-caret-position="1856">
+              <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
               <folding>
-                <marker date="1605666011772" expanded="true" signature="6:152" ph="..." />
-                <marker date="1605666011772" expanded="true" signature="182:3093" ph="{...}" />
-                <marker date="1605666011772" expanded="true" signature="698:729" ph="{...}" />
-                <marker date="1605666011772" expanded="true" signature="757:778" ph="{...}" />
-                <marker date="1605666011772" expanded="false" signature="820:1396" ph="{...}" />
-                <marker date="1605666011772" expanded="true" signature="1448:2232" ph="{...}" />
-                <marker date="1605666011772" expanded="true" signature="1752:1929" ph="/* foreach (var VARIABLE in _builds) ... */" />
-                <marker date="1605666011772" expanded="true" signature="2267:2481" ph="{...}" />
-                <marker date="1605666011772" expanded="true" signature="2282:2360" ph="/* GameMgr.Instance.BuildMgr.OnSelectBuildStruct(_builds[name]); ... */" />
-                <marker date="1605666011772" expanded="true" signature="2507:2623" ph="{...}" />
-                <marker date="1605666011772" expanded="true" signature="2644:2781" ph="{...}" />
-                <marker date="1605666011772" expanded="true" signature="2836:3003" ph="{...}" />
-                <marker date="1605666011772" expanded="true" signature="3042:3091" ph="{...}" />
+                <marker date="1605691723858" expanded="false" signature="6:152" ph="..." />
+                <marker date="1605691723858" expanded="true" signature="182:3093" ph="{...}" />
+                <marker date="1605691723858" expanded="true" signature="698:729" ph="{...}" />
+                <marker date="1605691723858" expanded="true" signature="757:778" ph="{...}" />
+                <marker date="1605691723858" expanded="true" signature="820:1396" ph="{...}" />
+                <marker date="1605691723858" expanded="true" signature="1448:2232" ph="{...}" />
+                <marker date="1605691723858" expanded="true" signature="1752:1929" ph="/* foreach (var VARIABLE in _builds) ... */" />
+                <marker date="1605691723858" expanded="true" signature="2267:2481" ph="{...}" />
+                <marker date="1605691723858" expanded="true" signature="2282:2360" ph="/* GameMgr.Instance.BuildMgr.OnSelectBuildStruct(_builds[name]); ... */" />
+                <marker date="1605691723858" expanded="true" signature="2507:2623" ph="{...}" />
+                <marker date="1605691723858" expanded="true" signature="2644:2781" ph="{...}" />
+                <marker date="1605691723858" expanded="true" signature="2836:3003" ph="{...}" />
+                <marker date="1605691723858" expanded="true" signature="3042:3091" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -159,8 +506,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/BuildMgr.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="493">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <marker date="1605528372059" expanded="false" signature="6:78" ph="..." />
                 <marker date="1605528372059" expanded="true" signature="117:2313" ph="{...}" />
@@ -180,42 +527,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSV/GetNpcCsvData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1091">
+            <state relative-caret-position="2668">
               <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
               <folding>
-                <marker date="1605528371832" expanded="false" signature="6:78" ph="..." />
-                <marker date="1605528371832" expanded="true" signature="122:3126" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="169:523" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="414:487" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="746:3124" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="785:825" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="940:3118" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="1027:2374" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="1069:1256" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="1284:1363" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="1391:1471" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="1499:1586" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="1614:1698" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="1726:1809" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="1837:2031" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="2059:2251" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="2279:2360" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="2739:3108" ph="{...}" />
-                <marker date="1605528371832" expanded="true" signature="2834:3094" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/Eventsys.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <marker date="1605616134027" expanded="true" signature="6:107" ph="..." />
-                <marker date="1605616134027" expanded="true" signature="137:333" ph="{...}" />
-                <marker date="1605616134027" expanded="true" signature="289:331" ph="{...}" />
+                <marker date="1605692337303" expanded="false" signature="6:78" ph="..." />
+                <marker date="1605692337303" expanded="true" signature="122:4819" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="169:523" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="414:487" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="870:4817" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="909:949" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="1064:4811" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="1151:4007" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="1193:1380" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="1408:1487" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="1515:1595" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="1623:1710" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="1738:1822" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="1850:1933" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="1961:2185" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="2213:2427" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="2455:2536" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="2564:2773" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="2802:3036" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="3065:3284" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="3313:3522" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="3551:3760" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="3789:3993" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="4432:4801" ph="{...}" />
+                <marker date="1605692337303" expanded="true" signature="4527:4787" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -224,18 +563,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+            <state relative-caret-position="1334">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
               <folding>
-                <marker date="1605684155533" expanded="false" signature="6:111" ph="..." />
-                <marker date="1605684155533" expanded="true" signature="147:2147" ph="{...}" />
-                <marker date="1605684155533" expanded="true" signature="430:714" ph="{...}" />
-                <marker date="1605684155533" expanded="true" signature="652:684" ph="/* test ... */" />
-                <marker date="1605684155533" expanded="true" signature="740:808" ph="{...}" />
-                <marker date="1605684155533" expanded="true" signature="851:1021" ph="{...}" />
-                <marker date="1605684155533" expanded="true" signature="1082:1381" ph="{...}" />
-                <marker date="1605684155533" expanded="true" signature="1442:1752" ph="{...}" />
-                <marker date="1605684155533" expanded="true" signature="1810:2145" ph="{...}" />
+                <marker date="1605691723857" expanded="false" signature="6:111" ph="..." />
+                <marker date="1605691723857" expanded="true" signature="147:2184" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="430:714" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="652:684" ph="/* test ... */" />
+                <marker date="1605691723857" expanded="true" signature="740:808" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="851:1021" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="1082:1381" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="1442:1752" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="1810:2182" ph="{...}" />
+                <marker date="1605691723857" expanded="true" signature="2079:2160" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -258,13 +598,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UnityEngine_T/Lesson09/TowerDefence/BaseTower.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Editor/Impulse/CinemachineImpulseChannels.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Editor/Utility/BaseEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCB9DAC8-AE3A-4886-93B0-F4CD5B0DB0BE/7e/4ca3847a/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/65/fe0f0f2b/Action.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../EventModeDemo/Assets/EventModel/EventDemo/AutoDoor/PlayerCtr.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F427A2CD-9F1A-412A-B26B-288BDCA4D453/f1/1e2de745/UnityEventBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TalkUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UnityEngine_T/Lesson09/TowerDefence/UI/TowerBaseUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F427A2CD-9F1A-412A-B26B-288BDCA4D453/51/f65ad37c/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F427A2CD-9F1A-412A-B26B-288BDCA4D453/6d/e77498e3/UnityAction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UnityEngine_T/Lesson09/TowerDefence/UI/WeaponUI.cs" root0="SKIP_HIGHLIGHTING" />
@@ -272,15 +613,14 @@
     <setting file="file://$PROJECT_DIR$/../../UnityEngine_T/Lesson09/TowerDefence/UI/TowerBaseIcon.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCB9DAC8-AE3A-4886-93B0-F4CD5B0DB0BE/9d/fb1d2a76/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/Eventsys.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/TalkUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/10/495c082b/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Behaviours/CinemachineVirtualCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/CameraMgr.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/HourseMgr.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/BuildMgr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/Eventsys.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -400,11 +740,12 @@
       <workItem from="1605617831818" duration="12889000" />
       <workItem from="1605683080204" duration="3000" />
       <workItem from="1605683142100" duration="1233000" />
+      <workItem from="1605692642509" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59783000" />
+    <option name="totallyTimeSpent" value="60025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,17 +1021,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/BuildShopUI.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <marker date="1605616560129" expanded="true" signature="6:78" ph="..." />
-            <marker date="1605616560129" expanded="true" signature="118:127" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/10/495c082b/Action`1.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -757,6 +1088,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/Eventsys.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <marker date="1605692337304" expanded="false" signature="6:100" ph="..." />
+            <marker date="1605692337304" expanded="true" signature="134:4446" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="929:1357" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="1601:1784" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="1812:2249" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="2278:2326" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="2355:2912" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="2418:2532" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="2570:2655" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="2726:2822" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="2931:3052" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="3070:4122" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="3192:3490" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="3277:3389" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="3626:3798" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="3678:3787" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="3857:4116" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="3909:4018" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="4145:4395" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="4206:4389" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="4262:4379" ph="{...}" />
+            <marker date="1605692337304" expanded="true" signature="4413:4444" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F427A2CD-9F1A-412A-B26B-288BDCA4D453/6d/e77498e3/UnityAction.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -764,160 +1127,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC/NPC.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <marker date="1605528372167" expanded="false" signature="6:100" ph="..." />
-            <marker date="1605528372167" expanded="true" signature="134:4055" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="707:967" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="1211:1394" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="1422:1859" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="1888:1936" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="1965:2522" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="2028:2142" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="2180:2265" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="2336:2432" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="2541:2662" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="2680:3732" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="2802:3100" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="2887:2999" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="3236:3408" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="3288:3397" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="3467:3726" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="3519:3628" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="3755:4004" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="3815:3998" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="3871:3988" ph="{...}" />
-            <marker date="1605528372167" expanded="true" signature="4022:4053" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/GameMgr.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="1566">
           <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
           <folding>
-            <marker date="1605683503694" expanded="false" signature="6:92" ph="..." />
-            <marker date="1605683503694" expanded="true" signature="130:1409" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="206:244" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="274:320" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="348:394" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="425:471" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="499:545" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="576:622" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="652:698" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="723:777" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="809:855" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="872:1407" ph="{...}" />
-            <marker date="1605683503694" expanded="true" signature="887:1247" ph="/* mainCamera = Camera.main; ... */" />
+            <marker date="1605691723857" expanded="false" signature="6:92" ph="..." />
+            <marker date="1605691723857" expanded="true" signature="130:1409" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="206:244" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="274:320" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="348:394" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="425:471" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="499:545" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="576:622" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="652:698" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="723:777" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="809:855" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="872:1407" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="887:1247" ph="/* mainCamera = Camera.main; ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/CameraMgr.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
+        <state relative-caret-position="609">
           <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
           <folding>
-            <marker date="1605617450345" expanded="true" signature="6:162" ph="..." />
-            <marker date="1605617450345" expanded="true" signature="202:1989" ph="{...}" />
-            <marker date="1605617450345" expanded="true" signature="475:525" ph="{...}" />
-            <marker date="1605617450345" expanded="true" signature="635:1344" ph="{...}" />
-            <marker date="1605617450345" expanded="true" signature="1114:1240" ph="{...}" />
-            <marker date="1605617450345" expanded="true" signature="1371:1625" ph="{...}" />
-            <marker date="1605617450345" expanded="true" signature="1665:1763" ph="{...}" />
-            <marker date="1605617450345" expanded="true" signature="1828:1987" ph="{...}" />
+            <marker date="1605691723856" expanded="false" signature="6:162" ph="..." />
+            <marker date="1605691723856" expanded="true" signature="202:1989" ph="{...}" />
+            <marker date="1605691723856" expanded="true" signature="475:525" ph="{...}" />
+            <marker date="1605691723856" expanded="true" signature="635:1344" ph="{...}" />
+            <marker date="1605691723856" expanded="true" signature="1114:1240" ph="{...}" />
+            <marker date="1605691723856" expanded="true" signature="1371:1625" ph="{...}" />
+            <marker date="1605691723856" expanded="true" signature="1665:1763" ph="{...}" />
+            <marker date="1605691723856" expanded="true" signature="1828:1987" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/ShopUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-591">
-          <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+        <state relative-caret-position="1856">
+          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
           <folding>
-            <marker date="1605666011772" expanded="true" signature="6:152" ph="..." />
-            <marker date="1605666011772" expanded="true" signature="182:3093" ph="{...}" />
-            <marker date="1605666011772" expanded="true" signature="698:729" ph="{...}" />
-            <marker date="1605666011772" expanded="true" signature="757:778" ph="{...}" />
-            <marker date="1605666011772" expanded="false" signature="820:1396" ph="{...}" />
-            <marker date="1605666011772" expanded="true" signature="1448:2232" ph="{...}" />
-            <marker date="1605666011772" expanded="true" signature="1752:1929" ph="/* foreach (var VARIABLE in _builds) ... */" />
-            <marker date="1605666011772" expanded="true" signature="2267:2481" ph="{...}" />
-            <marker date="1605666011772" expanded="true" signature="2282:2360" ph="/* GameMgr.Instance.BuildMgr.OnSelectBuildStruct(_builds[name]); ... */" />
-            <marker date="1605666011772" expanded="true" signature="2507:2623" ph="{...}" />
-            <marker date="1605666011772" expanded="true" signature="2644:2781" ph="{...}" />
-            <marker date="1605666011772" expanded="true" signature="2836:3003" ph="{...}" />
-            <marker date="1605666011772" expanded="true" signature="3042:3091" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <marker date="1605684155533" expanded="false" signature="6:111" ph="..." />
-            <marker date="1605684155533" expanded="true" signature="147:2147" ph="{...}" />
-            <marker date="1605684155533" expanded="true" signature="430:714" ph="{...}" />
-            <marker date="1605684155533" expanded="true" signature="652:684" ph="/* test ... */" />
-            <marker date="1605684155533" expanded="true" signature="740:808" ph="{...}" />
-            <marker date="1605684155533" expanded="true" signature="851:1021" ph="{...}" />
-            <marker date="1605684155533" expanded="true" signature="1082:1381" ph="{...}" />
-            <marker date="1605684155533" expanded="true" signature="1442:1752" ph="{...}" />
-            <marker date="1605684155533" expanded="true" signature="1810:2145" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/Eventsys.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1605616134027" expanded="true" signature="6:107" ph="..." />
-            <marker date="1605616134027" expanded="true" signature="137:333" ph="{...}" />
-            <marker date="1605616134027" expanded="true" signature="289:331" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSV/GetNpcCsvData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1091">
-          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-          <folding>
-            <marker date="1605528371832" expanded="false" signature="6:78" ph="..." />
-            <marker date="1605528371832" expanded="true" signature="122:3126" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="169:523" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="414:487" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="746:3124" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="785:825" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="940:3118" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="1027:2374" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="1069:1256" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="1284:1363" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="1391:1471" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="1499:1586" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="1614:1698" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="1726:1809" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="1837:2031" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="2059:2251" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="2279:2360" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="2739:3108" ph="{...}" />
-            <marker date="1605528371832" expanded="true" signature="2834:3094" ph="{...}" />
+            <marker date="1605691723858" expanded="false" signature="6:152" ph="..." />
+            <marker date="1605691723858" expanded="true" signature="182:3093" ph="{...}" />
+            <marker date="1605691723858" expanded="true" signature="698:729" ph="{...}" />
+            <marker date="1605691723858" expanded="true" signature="757:778" ph="{...}" />
+            <marker date="1605691723858" expanded="true" signature="820:1396" ph="{...}" />
+            <marker date="1605691723858" expanded="true" signature="1448:2232" ph="{...}" />
+            <marker date="1605691723858" expanded="true" signature="1752:1929" ph="/* foreach (var VARIABLE in _builds) ... */" />
+            <marker date="1605691723858" expanded="true" signature="2267:2481" ph="{...}" />
+            <marker date="1605691723858" expanded="true" signature="2282:2360" ph="/* GameMgr.Instance.BuildMgr.OnSelectBuildStruct(_builds[name]); ... */" />
+            <marker date="1605691723858" expanded="true" signature="2507:2623" ph="{...}" />
+            <marker date="1605691723858" expanded="true" signature="2644:2781" ph="{...}" />
+            <marker date="1605691723858" expanded="true" signature="2836:3003" ph="{...}" />
+            <marker date="1605691723858" expanded="true" signature="3042:3091" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/BuildMgr.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="493">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
             <marker date="1605528372059" expanded="false" signature="6:78" ph="..." />
             <marker date="1605528372059" expanded="true" signature="117:2313" ph="{...}" />
@@ -933,22 +1207,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CSV/GetNpcCsvData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2668">
+          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+          <folding>
+            <marker date="1605692337303" expanded="false" signature="6:78" ph="..." />
+            <marker date="1605692337303" expanded="true" signature="122:4819" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="169:523" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="414:487" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="870:4817" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="909:949" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="1064:4811" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="1151:4007" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="1193:1380" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="1408:1487" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="1515:1595" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="1623:1710" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="1738:1822" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="1850:1933" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="1961:2185" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="2213:2427" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="2455:2536" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="2564:2773" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="2802:3036" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="3065:3284" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="3313:3522" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="3551:3760" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="3789:3993" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="4432:4801" ph="{...}" />
+            <marker date="1605692337303" expanded="true" signature="4527:4787" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Mgr/UIMgr.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <marker date="1605691723857" expanded="false" signature="6:111" ph="..." />
+            <marker date="1605691723857" expanded="true" signature="147:2184" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="430:714" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="652:684" ph="/* test ... */" />
+            <marker date="1605691723857" expanded="true" signature="740:808" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="851:1021" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="1082:1381" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="1442:1752" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="1810:2182" ph="{...}" />
+            <marker date="1605691723857" expanded="true" signature="2079:2160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/TalkUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="85" column="46" lean-forward="true" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+        <state relative-caret-position="321">
+          <caret line="104" column="24" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
           <folding>
-            <marker date="1605684340653" expanded="true" signature="6:132" ph="..." />
-            <marker date="1605684340653" expanded="true" signature="162:3126" ph="{...}" />
-            <marker date="1605684340653" expanded="true" signature="777:1689" ph="{...}" />
-            <marker date="1605684340653" expanded="true" signature="1710:1731" ph="{...}" />
-            <marker date="1605684340653" expanded="true" signature="1759:1963" ph="{...}" />
-            <marker date="1605684340653" expanded="true" signature="1827:1935" ph="{...}" />
-            <marker date="1605684340653" expanded="true" signature="2011:2514" ph="{...}" />
-            <marker date="1605684340653" expanded="true" signature="2565:2769" ph="{...}" />
-            <marker date="1605684340653" expanded="true" signature="2794:3055" ph="{...}" />
-            <marker date="1605684340653" expanded="true" signature="2827:2928" ph="{...}" />
-            <marker date="1605684340653" expanded="true" signature="3103:3124" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="6:132" ph="..." />
+            <marker date="1605692885170" expanded="true" signature="162:3284" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="808:1750" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="1771:1792" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="1820:2024" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="1888:1996" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="2072:2575" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="2626:2830" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="2855:3213" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="2888:2989" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="3017:3198" ph="{...}" />
+            <marker date="1605692885170" expanded="true" signature="3261:3282" ph="{...}" />
           </folding>
         </state>
       </provider>
