@@ -19,11 +19,23 @@ public class ConfigMgr : MonoBehaviour
         get;
         private set;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
     public GetMonsterCsvData GetMonsterCsvData
     {
         get;
         private set;
     }
+<<<<<<< HEAD
+=======
+    public GetCommodityCsvData GetCommodityCsvData
+    {
+        get;
+        private set;
+    }
+>>>>>>> master
     public void Inst()
     {
         GetNpcCsvData = gameObject.AddComponent<GetNpcCsvData>();
@@ -37,5 +49,12 @@ public class ConfigMgr : MonoBehaviour
 
         GetMonsterCsvData = gameObject.AddComponent<GetMonsterCsvData>();
         GetMonsterCsvData.Inst();
+<<<<<<< HEAD
+=======
+
+        GetCommodityCsvData = gameObject.AddComponent<GetCommodityCsvData>();
+        GetCommodityCsvData.Inst();
+
+>>>>>>> master
     }
 }

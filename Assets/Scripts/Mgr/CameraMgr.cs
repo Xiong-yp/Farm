@@ -23,7 +23,7 @@ public class CameraMgr : MonoBehaviour
         BuildCam
     }
     private CameraState curCame;  //当前使用的虚拟相机
-    private const float ZoomSpeed = -5f;
+    private const float ZoomSpeed = 5f;
 
     public void Init()
     {
@@ -50,10 +50,8 @@ public class CameraMgr : MonoBehaviour
         float zoom = Input.GetAxis("Mouse ScrollWheel");
         zoom = zoom * ZoomSpeed;
         _camGroup[(int) curCame].m_Lens.FieldOfView = 
-            Mathf.Clamp(_camGroup[(int) curCame].m_Lens.FieldOfView+zoom * ZoomSpeed,35f,80f);
+            Mathf.Clamp(_camGroup[(int) curCame].m_Lens.FieldOfView - zoom * ZoomSpeed,35f,80f);
     }
-
-    
     
 
     //镜头切换测试

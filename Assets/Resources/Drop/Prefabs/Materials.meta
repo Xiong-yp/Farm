@@ -1,5 +1,8 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+guid: 6fec3a2627bfb3449a12ab3ed3d36c8a
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:Assets/Resources/Drop/Prefabs/Materials.meta
 guid: 8e423a433cb40234686da3154881405a
 =======
@@ -8,6 +11,7 @@ guid: c46b0b95611043c4488ce592cd4f9fcc
 =======
 guid: 8175298f098e53a4586c4d1e6df5293b
 >>>>>>> acfef0b85c7888598486fb2c6ef4aa2cbafc3fca
+>>>>>>> master
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
