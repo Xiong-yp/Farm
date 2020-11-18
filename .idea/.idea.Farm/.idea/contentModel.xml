@@ -56,6 +56,7 @@
             <e p="GetMonsterCsvData.cs" t="Include" />
             <e p="GetNpcCsvData.cs" t="Include" />
           </e>
+          <e p="Eventsys.cs" t="Include" />
           <e p="Item.cs" t="Include" />
           <e p="Mgr" t="Include">
             <e p="BuildMgr.cs" t="Include" />
