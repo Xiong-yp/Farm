@@ -19,6 +19,7 @@ public class ConfigMgr : MonoBehaviour
         get;
         private set;
     }
+
     public GetMonsterCsvData GetMonsterCsvData
     {
         get;
@@ -45,5 +46,6 @@ public class ConfigMgr : MonoBehaviour
 
         GetCommodityCsvData = gameObject.AddComponent<GetCommodityCsvData>();
         GetCommodityCsvData.Inst();
+
     }
 }
