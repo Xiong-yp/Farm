@@ -71,6 +71,7 @@ public class GetAnimalCsvData : MonoBehaviour
         int _nCol = m_array[0].Length;
         for (int i = 1; i < _nRow; i++)
         {
+            MultAnimal m_str = new MultAnimal();
             for (int j = 0; j < _nCol; j++)
             {
                 if (j == 0)
@@ -93,75 +94,75 @@ public class GetAnimalCsvData : MonoBehaviour
                 }
                 if (j == 4)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _mingrowth = int.Parse(tempid);
+                    string tempmingrowth = m_array[i][j];
+                    tempmingrowth = tempmingrowth.Replace("\n", "");
+                    _mingrowth = int.Parse(tempmingrowth);
                 }
                 if (j == 5)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _maxgrowth = int.Parse(tempid);
+                    string tempmaxgrowth = m_array[i][j];
+                    tempmaxgrowth = tempmaxgrowth.Replace("\n", "");
+                    _maxgrowth = int.Parse(tempmaxgrowth);
                 }
                 if (j == 6)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _minattack = int.Parse(tempid);
+                    string tempminattack = m_array[i][j];
+                    tempminattack = tempminattack.Replace("\n", "");
+                    _minattack = int.Parse(tempminattack);
                 }
                 if (j == 7)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _maxattack = int.Parse(tempid);
+                    string tempmaxattack = m_array[i][j];
+                    tempmaxattack = tempmaxattack.Replace("\n", "");
+                    _maxattack = int.Parse(tempmaxattack);
                 }
                 if (j == 8)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _minhealth = int.Parse(tempid);
+                    string tempminhealth = m_array[i][j];
+                    tempminhealth = tempminhealth.Replace("\n", "");
+                    _minhealth = int.Parse(tempminhealth);
                 }
                 if (j == 9)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _maxhealth = int.Parse(tempid);
+                    string tempmaxhealth = m_array[i][j];
+                    tempmaxhealth = tempmaxhealth.Replace("\n", "");
+                    _maxhealth = int.Parse(tempmaxhealth);
                 }
                 if (j == 10)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _minrunspeed = int.Parse(tempid);
+                    string tempminrunspeed = m_array[i][j];
+                    tempminrunspeed = tempminrunspeed.Replace("\n", "");
+                    _minrunspeed = int.Parse(tempminrunspeed);
                 }
                 if (j == 11)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _maxrunspeed = int.Parse(tempid);
+                    string tempmaxrunspeed = m_array[i][j];
+                    tempmaxrunspeed = tempmaxrunspeed.Replace("\n", "");
+                    _maxrunspeed = int.Parse(tempmaxrunspeed);
                 }
                 if (j == 12)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _minattackspeed = int.Parse(tempid);
+                    string tempminattackspeed = m_array[i][j];
+                    tempminattackspeed = tempminattackspeed.Replace("\n", "");
+                    _minattackspeed = int.Parse(tempminattackspeed);
                 }
                 if (j == 13)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _maxattackspeed = int.Parse(tempid);
+                    string tempmaxattackspeed = m_array[i][j];
+                    tempmaxattackspeed = tempmaxattackspeed.Replace("\n", "");
+                    _maxattackspeed = int.Parse(tempmaxattackspeed);
                 }
                 if (j == 14)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _minproduction = int.Parse(tempid);
+                    string tempminproduction = m_array[i][j];
+                    tempminproduction = tempminproduction.Replace("\n", "");
+                    _minproduction = int.Parse(tempminproduction);
                 }
                 if (j == 15)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _maxproduction = int.Parse(tempid);
+                    string tempmaxproduction = m_array[i][j];
+                    tempmaxproduction = tempmaxproduction.Replace("\n", "");
+                    _maxproduction = int.Parse(tempmaxproduction);
                 }
                 if (j == 16)
                 {
@@ -169,17 +170,37 @@ public class GetAnimalCsvData : MonoBehaviour
                 }
                 if (j == 17)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _buyprice = int.Parse(tempid);
+                    string tempbuyprice = m_array[i][j];
+                    tempbuyprice = tempbuyprice.Replace("\n", "");
+                    _buyprice = int.Parse(tempbuyprice);
                 }
                 if (j == 18)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _saleprice = int.Parse(tempid);
+                    string tempsaleprice = m_array[i][j];
+                    tempsaleprice = tempsaleprice.Replace("\n", "");
+                    _saleprice = int.Parse(tempsaleprice);
                 }
+                m_str.id = _id;
+                m_str.name = _name;
+                m_str.modle = _modle;
+                m_str.info = _info;
+                m_str.mingrowth = _mingrowth;
+                m_str.maxgrowth = _maxgrowth;
+                m_str.minattack = _minattack;
+                m_str.maxattack = _maxattack;
+                m_str.minhealth = _minhealth;
+                m_str.maxhealth = _maxhealth;
+                m_str.minrunspeed = _minrunspeed;
+                m_str.maxrunspeed = _maxrunspeed;
+                m_str.minproduction = _minproduction;
+                m_str.maxproduction = _maxproduction;
+                m_str.minattackspeed = _minattackspeed;
+                m_str.maxattackspeed = _maxattackspeed;
+                m_str.product = _product;
+                m_str.buyprice = _buyprice;
+                m_str.saleprice = _saleprice;
             }
+            multiAnimalTable.Add(_id, m_str);
         }
     }
 }

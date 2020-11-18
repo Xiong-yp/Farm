@@ -73,15 +73,15 @@ public class GetNpcCsvData : MonoBehaviour
                 }
                 if (j == 6)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _startwork = int.Parse(tempid);
+                    string tempstartwork = m_array[i][j];
+                    tempstartwork = tempstartwork.Replace("\n", "");
+                    _startwork = int.Parse(tempstartwork);
                 }
                 if (j == 7)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _endwork = int.Parse(tempid);
+                    string tempendwork = m_array[i][j];
+                    tempendwork = tempendwork.Replace("\n", "");
+                    _endwork = int.Parse(tempendwork);
                 }
                 if (j == 8)
                 {
@@ -89,39 +89,39 @@ public class GetNpcCsvData : MonoBehaviour
                 }
                 if (j == 9)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _attack = int.Parse(tempid);
+                    string tempattack = m_array[i][j];
+                    tempattack = tempattack.Replace("\n", "");
+                    _attack = int.Parse(tempattack);
                 }
                 if (j == 10)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _attackspeed = int.Parse(tempid);
+                    string tempattackspeed = m_array[i][j];
+                    tempattackspeed = tempattackspeed.Replace("\n", "");
+                    _attackspeed = int.Parse(tempattackspeed);
                 }
                 if (j == 11)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _runspeed = int.Parse(tempid);
+                    string temprunspeed = m_array[i][j];
+                    temprunspeed = temprunspeed.Replace("\n", "");
+                    _runspeed = int.Parse(temprunspeed);
                 }
                 if (j == 12)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _health = int.Parse(tempid);
+                    string temphealth = m_array[i][j];
+                    temphealth = temphealth.Replace("\n", "");
+                    _health = int.Parse(temphealth);
                 }
                 if (j == 13)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _brutal = int.Parse(tempid);
+                    string tempbrutal = m_array[i][j];
+                    tempbrutal = tempbrutal.Replace("\n", "");
+                    _brutal = int.Parse(tempbrutal);
                 }
                 if (j == 14)
                 {
-                    string tempid = m_array[i][j];
-                    tempid = tempid.Replace("\n", "");
-                    _price = int.Parse(tempid);
+                    string tempprice = m_array[i][j];
+                    tempprice = tempprice.Replace("\n", "");
+                    _price = int.Parse(tempprice);
                 }
             }
             _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
