@@ -121,8 +121,7 @@ public class GetNpcCsvData : MonoBehaviour
                 {
                     string tempprice = m_array[i][j];
                     tempprice = tempprice.Replace("\n", "");
-                    if (tempprice != "")
-                        _price = float.Parse(tempprice);
+                    _price = float.Parse(tempprice);
                 }
             }
             _tempnpc = Instantiate(Resources.Load(string.Format("{0}{1}", "Npc/", _modle)) as GameObject);
