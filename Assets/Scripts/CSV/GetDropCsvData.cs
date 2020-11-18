@@ -11,11 +11,11 @@ public class GetDropCsvData : MonoBehaviour
         public string picture;
         public string modle;
         public string info;
-        public int overlay;
-        public int minget;
-        public int maxget;
-        public int buyprice;
-        public int saleprice;
+        public float overlay;
+        public float minget;
+        public float maxget;
+        public float buyprice;
+        public float saleprice;
     }
     public Dictionary<int, MultDrop> multiDropTable = new Dictionary<int, MultDrop>();
 
@@ -37,11 +37,11 @@ public class GetDropCsvData : MonoBehaviour
     string _picture;
     string _modle;
     string _info;
-    int _overlay;
-    int _minget;
-    int _maxget;
-    int _buyprice;
-    int _saleprice;
+    float _overlay;
+    float _minget;
+    float _maxget;
+    float _buyprice;
+    float _saleprice;
 
     void SaveTableData(string[][] m_array)
     {
@@ -82,31 +82,31 @@ public class GetDropCsvData : MonoBehaviour
                 {
                     string tempoverlay = m_array[i][j];
                     tempoverlay = tempoverlay.Replace("\n", "");
-                    _overlay = int.Parse(tempoverlay);
+                    _overlay = float.Parse(tempoverlay);
                 }
                 if (j == 6)
                 {
                     string tempminget = m_array[i][j];
                     tempminget = tempminget.Replace("\n", "");
-                    _minget = int.Parse(tempminget);
+                    _minget = float.Parse(tempminget);
                 }
                 if (j == 7)
                 {
                     string tempmaxget = m_array[i][j];
                     tempmaxget = tempmaxget.Replace("\n", "");
-                    _maxget = int.Parse(tempmaxget);
+                    _maxget = float.Parse(tempmaxget);
                 }
                 if (j == 8)
                 {
                     string tempbuyprice = m_array[i][j];
                     tempbuyprice = tempbuyprice.Replace("\n", "");
-                    _buyprice = int.Parse(tempbuyprice);
+                    _buyprice = float.Parse(tempbuyprice);
                 }
                 if (j == 9)
                 {
                     string tempsaleprice = m_array[i][j];
                     tempsaleprice = tempsaleprice.Replace("\n", "");
-                    _saleprice = int.Parse(tempsaleprice);
+                    _saleprice = float.Parse(tempsaleprice);
                 }
                 m_str.id = _id;
                 m_str.name = _name;
