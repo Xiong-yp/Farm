@@ -287,9 +287,15 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="237" />
     <option name="y" value="70" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="745" />
+    <option name="y" value="58" />
+>>>>>>> parent of 568aa97d (1)
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
