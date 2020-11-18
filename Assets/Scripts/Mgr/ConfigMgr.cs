@@ -19,6 +19,11 @@ public class ConfigMgr : MonoBehaviour
         get;
         private set;
     }
+    public GetMonsterCsvData GetMonsterCsvData
+    {
+        get;
+        private set;
+    }
     public void Inst()
     {
         GetNpcCsvData = gameObject.AddComponent<GetNpcCsvData>();
@@ -29,5 +34,8 @@ public class ConfigMgr : MonoBehaviour
 
         GetAnimalCsvData = gameObject.AddComponent<GetAnimalCsvData>();
         GetAnimalCsvData.Inst();
+
+        GetMonsterCsvData = gameObject.AddComponent<GetMonsterCsvData>();
+        GetMonsterCsvData.Inst();
     }
 }
