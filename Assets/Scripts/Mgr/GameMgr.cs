@@ -70,16 +70,15 @@ public class GameMgr : MonoBehaviour
         ConfigMgr = gameObject.AddComponent<ConfigMgr>();
         ConfigMgr.Inst();
 
-<<<<<<< HEAD
         /*BuildMgr = gameObject.AddComponent<BuildMgr>();
         BuildMgr.Init();
         UIMgr = gameObject.AddComponent<UIMgr>();
         UIMgr.Init();*/
-=======
+
         //BuildMgr = gameObject.AddComponent<BuildMgr>();
         //BuildMgr.Init();
         //UIMgr = gameObject.AddComponent<UIMgr>();
         //UIMgr.Init();
->>>>>>> master
+
     }
 }

@@ -16,7 +16,7 @@ public class TimeMgr : MonoBehaviour
     private void FixedUpdate()
     {
         _Nowtime += Time.deltaTime;
-<<<<<<< HEAD
+
         /*if((int .Parse)(_Nowtime.ToString())%300==0)
         {
             TimeAdd(); 
@@ -25,9 +25,8 @@ public class TimeMgr : MonoBehaviour
         {
             _Nowtime = 0;
         }*/
-=======
+
  
->>>>>>> master
     }
 
     void TimeAdd()
