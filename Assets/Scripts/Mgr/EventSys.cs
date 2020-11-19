@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public static class Eventsys
+public static class EventSys
 {
     public delegate void ShowTime(float _nowTime);
     static public event ShowTime GrowthTime;

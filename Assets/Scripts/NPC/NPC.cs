@@ -155,6 +155,5 @@ public class NPC : MonoBehaviour
     void Update()
     {
         Arrive();
-
     }
 }
