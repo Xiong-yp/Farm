@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 using System.Collections;
-=======
-<<<<<<< HEAD
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -68,53 +65,3 @@ public class TimeMgr : MonoBehaviour
         Debug.Log("Time:" + _Time+"；天数："+_day+"；小时："+_Hour+"；分钟："+_Min+"；秒："+_Seconds);
     }
 }
-=======
-﻿using System.Collections;
->>>>>>> master
-using System.Collections.Generic;
-using UnityEngine;
-
-public class TimeMgr : MonoBehaviour
-{
-    float _Nowtime;
-    float _time;
-    public float _Time { get => _time; set => _time = value; }
-
-    public void Inst()
-    {
-        InvokeRepeating("TimeAdd", 3, 3);
-    }
-
-    private void FixedUpdate()
-    {
-        _Nowtime += Time.deltaTime;
-<<<<<<< HEAD
-
-        /*if((int .Parse)(_Nowtime.ToString())%300==0)
-        {
-            TimeAdd(); 
-        }
-        if((int.Parse)(_Nowtime.ToString()) % 3600==0)
-        {
-            _Nowtime = 0;
-        }*/
-
-=======
->>>>>>> master
- 
-    }
-
-    void TimeAdd()
-    {
-        if (_Time < 23)
-            _Time++;
-        else
-            _Time = 0;
-        Eventsys.RaiseeShowTime(_Time);
-    }
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> master
->>>>>>> master
