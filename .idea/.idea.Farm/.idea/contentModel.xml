@@ -84,6 +84,7 @@
           </e>
           <e p="Weather" t="Include">
             <e p="Sun.cs" t="Include" />
+            <e p="SunLightMgr.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
