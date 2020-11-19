@@ -1,0 +1,327 @@
+fileFormatVersion: 2
+guid: 61adf4c62c14b9c49ba8398612032cf1
+timeCreated: 1520927545
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Horse 01
+    100002: //RootNode
+    100004: HorsePelvisGizmo
+    100006: HorseRibcageGizmo
+    100008: HorseScullGizmo
+    100010: HorseTail1Gizmo
+    100012: HorseTail2Gizmo
+    100014: HorseTail3Gizmo
+    100016: HorseTail4Gizmo
+    100018: HorseTail5Gizmo
+    100020: HorseTail6Gizmo
+    100022: HorseTail7Gizmo
+    100024: Rig
+    100026: RigFrontRLegFrontHoof
+    100028: RigFrontRLegHumerus
+    100030: RigFrontRLegMetacarpus
+    100032: RigFrontRLegPhalangesManus
+    100034: RigFrontRLegPlatform
+    100036: RigFrontRLegRadius
+    100038: RigLFemur
+    100040: RigLFrontHoof
+    100042: RigLHumerus
+    100044: RigLLargeCannon
+    100046: RigLMetacarpus
+    100048: RigLPhalangesManus
+    100050: RigLPhalanxPrima
+    100052: RigLPlatform
+    100054: RigLPlatform 1
+    100056: RigLRadius
+    100058: RigLRearHoof
+    100060: RigLTibia
+    100062: RigNeck1
+    100064: RigNeck2
+    100066: RigNeck3
+    100068: RigPelvis
+    100070: RigRFemur
+    100072: RigRibcage
+    100074: RigRLargeCannon
+    100076: RigRPhalanxPrima
+    100078: RigRPlatform
+    100080: RigRRearHoof
+    100082: RigRTibia
+    100084: RigScull
+    100086: RigSpine1
+    100088: RigSpine2
+    100090: RigSpine3
+    100092: RigTail1
+    100094: RigTail2
+    100096: RigTail3
+    100098: RigTail4
+    100100: RigTail5
+    100102: RigTail6
+    100104: RigTail7
+    100106: Saddle 01
+    400000: Horse 01
+    400002: //RootNode
+    400004: HorsePelvisGizmo
+    400006: HorseRibcageGizmo
+    400008: HorseScullGizmo
+    400010: HorseTail1Gizmo
+    400012: HorseTail2Gizmo
+    400014: HorseTail3Gizmo
+    400016: HorseTail4Gizmo
+    400018: HorseTail5Gizmo
+    400020: HorseTail6Gizmo
+    400022: HorseTail7Gizmo
+    400024: Rig
+    400026: RigFrontRLegFrontHoof
+    400028: RigFrontRLegHumerus
+    400030: RigFrontRLegMetacarpus
+    400032: RigFrontRLegPhalangesManus
+    400034: RigFrontRLegPlatform
+    400036: RigFrontRLegRadius
+    400038: RigLFemur
+    400040: RigLFrontHoof
+    400042: RigLHumerus
+    400044: RigLLargeCannon
+    400046: RigLMetacarpus
+    400048: RigLPhalangesManus
+    400050: RigLPhalanxPrima
+    400052: RigLPlatform
+    400054: RigLPlatform 1
+    400056: RigLRadius
+    400058: RigLRearHoof
+    400060: RigLTibia
+    400062: RigNeck1
+    400064: RigNeck2
+    400066: RigNeck3
+    400068: RigPelvis
+    400070: RigRFemur
+    400072: RigRibcage
+    400074: RigRLargeCannon
+    400076: RigRPhalanxPrima
+    400078: RigRPlatform
+    400080: RigRRearHoof
+    400082: RigRTibia
+    400084: RigScull
+    400086: RigSpine1
+    400088: RigSpine2
+    400090: RigSpine3
+    400092: RigTail1
+    400094: RigTail2
+    400096: RigTail3
+    400098: RigTail4
+    400100: RigTail5
+    400102: RigTail6
+    400104: RigTail7
+    400106: Saddle 01
+    4300000: Horse 01
+    4300002: Saddle 01
+    7400000: Walk Forward W Root
+    9500000: //RootNode
+    13700000: Horse 01
+    13700002: Saddle 01
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk Forward W Root
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Horse 01
+        weight: 1
+      - path: HorsePelvisGizmo
+        weight: 1
+      - path: HorseRibcageGizmo
+        weight: 1
+      - path: HorseScullGizmo
+        weight: 1
+      - path: HorseTail1Gizmo
+        weight: 1
+      - path: HorseTail2Gizmo
+        weight: 1
+      - path: HorseTail3Gizmo
+        weight: 1
+      - path: HorseTail4Gizmo
+        weight: 1
+      - path: HorseTail5Gizmo
+        weight: 1
+      - path: HorseTail6Gizmo
+        weight: 1
+      - path: HorseTail7Gizmo
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: RigFrontRLegPlatform
+        weight: 1
+      - path: RigLPlatform
+        weight: 1
+      - path: RigLPlatform 1
+        weight: 1
+      - path: RigPelvis
+        weight: 1
+      - path: RigPelvis/RigLFemur
+        weight: 1
+      - path: RigPelvis/RigLFemur/RigLTibia
+        weight: 1
+      - path: RigPelvis/RigLFemur/RigLTibia/RigLLargeCannon
+        weight: 1
+      - path: RigPelvis/RigLFemur/RigLTibia/RigLLargeCannon/RigLPhalanxPrima
+        weight: 1
+      - path: RigPelvis/RigLFemur/RigLTibia/RigLLargeCannon/RigLPhalanxPrima/RigLRearHoof
+        weight: 1
+      - path: RigPelvis/RigRFemur
+        weight: 1
+      - path: RigPelvis/RigRFemur/RigRTibia
+        weight: 1
+      - path: RigPelvis/RigRFemur/RigRTibia/RigRLargeCannon
+        weight: 1
+      - path: RigPelvis/RigRFemur/RigRTibia/RigRLargeCannon/RigRPhalanxPrima
+        weight: 1
+      - path: RigPelvis/RigRFemur/RigRTibia/RigRLargeCannon/RigRPhalanxPrima/RigRRearHoof
+        weight: 1
+      - path: RigPelvis/RigSpine1
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigFrontRLegHumerus
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigFrontRLegHumerus/RigFrontRLegRadius
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigFrontRLegHumerus/RigFrontRLegRadius/RigFrontRLegMetacarpus
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigFrontRLegHumerus/RigFrontRLegRadius/RigFrontRLegMetacarpus/RigFrontRLegPhalangesManus
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigFrontRLegHumerus/RigFrontRLegRadius/RigFrontRLegMetacarpus/RigFrontRLegPhalangesManus/RigFrontRLegFrontHoof
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigLHumerus
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigLHumerus/RigLRadius
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigLHumerus/RigLRadius/RigLMetacarpus
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigLHumerus/RigLRadius/RigLMetacarpus/RigLPhalangesManus
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigLHumerus/RigLRadius/RigLMetacarpus/RigLPhalangesManus/RigLFrontHoof
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigNeck1
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigNeck1/RigNeck2
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigNeck1/RigNeck2/RigNeck3
+        weight: 1
+      - path: RigPelvis/RigSpine1/RigSpine2/RigSpine3/RigRibcage/RigNeck1/RigNeck2/RigNeck3/RigScull
+        weight: 1
+      - path: RigPelvis/RigTail1
+        weight: 1
+      - path: RigPelvis/RigTail1/RigTail2
+        weight: 1
+      - path: RigPelvis/RigTail1/RigTail2/RigTail3
+        weight: 1
+      - path: RigPelvis/RigTail1/RigTail2/RigTail3/RigTail4
+        weight: 1
+      - path: RigPelvis/RigTail1/RigTail2/RigTail3/RigTail4/RigTail5
+        weight: 1
+      - path: RigPelvis/RigTail1/RigTail2/RigTail3/RigTail4/RigTail5/RigTail6
+        weight: 1
+      - path: RigPelvis/RigTail1/RigTail2/RigTail3/RigTail4/RigTail5/RigTail6/RigTail7
+        weight: 1
+      - path: RigRPlatform
+        weight: 1
+      - path: Saddle 01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
