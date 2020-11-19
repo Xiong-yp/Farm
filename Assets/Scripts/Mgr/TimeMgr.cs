@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+using System.Collections;
+=======
+<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -67,6 +70,7 @@ public class TimeMgr : MonoBehaviour
 }
 =======
 ﻿using System.Collections;
+>>>>>>> master
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -84,6 +88,19 @@ public class TimeMgr : MonoBehaviour
     private void FixedUpdate()
     {
         _Nowtime += Time.deltaTime;
+<<<<<<< HEAD
+
+        /*if((int .Parse)(_Nowtime.ToString())%300==0)
+        {
+            TimeAdd(); 
+        }
+        if((int.Parse)(_Nowtime.ToString()) % 3600==0)
+        {
+            _Nowtime = 0;
+        }*/
+
+=======
+>>>>>>> master
  
     }
 
@@ -96,4 +113,8 @@ public class TimeMgr : MonoBehaviour
         Eventsys.RaiseeShowTime(_Time);
     }
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 >>>>>>> master
